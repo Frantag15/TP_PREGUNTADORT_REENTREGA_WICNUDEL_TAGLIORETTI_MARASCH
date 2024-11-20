@@ -1,0 +1,61 @@
+@{
+    string ColorBackground, ColorCorrecto = null;
+
+    if(ViewBag.Correcto){
+        ColorBackground = "#008000";
+    }
+    else{
+        ColorCorrecto = "#008000";
+        ColorBackground = "#FF0000";
+    }
+}
+<head>
+    <script>
+        setTimeout(function(){
+            window.location.href = '@Url.Action("Jugar", "Home")';
+        }, 1000)
+    </script>
+</head>
+<main class= "juego" style="background-color: @Juego.categoriaElegida">
+    <header>
+        <div class="d-flex justify-content-evenly text-white">   
+            <h3>Tiempo: <span id="tiempo"></span></h3>
+        </div>
+        <div class="d-flex justify-content-between">
+            <div>
+                <h3 class="nombreUsuario bg-white">@ViewBag.nombreUsuario</h3>
+            </div>
+            <div class="d-flex align-items-center text-white">
+                <h2>@Juego.categoriaNombre</h2>
+            </div>
+            <div>
+                <h3 class="puntaje bg-white">Puntos: @ViewBag.Puntaje</h3>
+            </div>
+        </div>
+    </header>
+
+    <h3 class="pregunta bg-white">@ViewBag.PreguntaActual.Enunciado</h3>
+    <div class ="Opciones">
+        @foreach(Respuesta r in ViewBag.RespuestaPregunta){
+            if(ViewBag.IdRespuesta == r.IdRespuesta){
+                <button class="respuesta-btn-correctoTrue" name="idRespuesta" value="@r.IdRespuesta">@r.Contenido</button>
+                <style>
+                    .respuesta-btn-correctoTrue {background-color:@ColorBackground}
+                </style>
+            }
+            else{
+                if(r.Correcta){
+                    <button class="respuesta-btn-correctoFalse" name="idRespuesta" value="@r.IdRespuesta">@r.Contenido</button>
+                    <style>
+                        .respuesta-btn-correctoFalse {background-color:@ColorCorrecto}
+                    </style>
+                }
+                else{
+                    <button class="respuesta-btn-correcto" name="idRespuesta" value="@r.IdRespuesta">@r.Contenido</button>
+                }
+            }
+        }
+    </div>
+</main>
+
+<script src="~/js/Timer.js" asp-append-version="true"></script>

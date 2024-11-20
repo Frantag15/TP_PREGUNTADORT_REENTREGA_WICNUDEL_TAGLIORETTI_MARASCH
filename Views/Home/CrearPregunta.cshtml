@@ -1,0 +1,106 @@
+@{
+    int sumatoria = 0;
+}
+
+<form action='@Url.Action("CrearPregunta", "Backoffice")' style="height: 100vh; background-color:gainsboro;">
+    <div class="d-flex bg-white">
+        @foreach(Categoria c in ViewBag.Categorias){
+            sumatoria++;
+
+            <div class="opcion d-flex justify-content-center" style="width: 33vw; height: 7vh;">
+                @if(sumatoria == 1){
+                    <input type="radio" id="@sumatoria" name="idCategoria" value="@c.IdCategoria" checked/>
+                }
+                else{
+                    <input type="radio" id="@sumatoria" name="idCategoria" value="@c.IdCategoria" />
+                }
+                <label class="texto text-white" for="@sumatoria" style="font-size: 5rem + 2vw;"><b>@c.Nombre</b></label>
+            </div>
+        }
+    </div>
+
+    <div class="container mt-3">
+        <div class="d-flex justify-content-between">
+            <h4>Su pregunta</h4>
+            <input class="enunciado" type="text" name="Enunciado" style="width: 40%;"/>
+        </div>
+
+        <div class="d-flex bg-white mt-3">
+            @foreach(Dificultad d in ViewBag.Dificultades){
+                sumatoria++;
+
+                <div class="opcion d-flex justify-content-center" style="width: 33vw; height: 7vh;">
+                    @if(sumatoria == 1){
+                        <input type="radio" id="@sumatoria" name="idDificultad" value="@d.IdDificultad" checked/>
+                    }
+                    else{
+                        <input type="radio" id="@sumatoria" name="idDificultad" value="@d.IdDificultad" />
+                    }
+                    <label class="texto text-white" for="@sumatoria" style="font-size: 5rem + 2vw;"><b>@d.Nombre</b></label>
+                </div>
+            }
+        </div>
+
+        <div class="mt-3">
+            <h4>Respuestas</h4>
+            @for(int i = 0; i < 4; i++){
+                <div class="d-flex">
+                    <h4 class="me-5 bg-dark text-white p-2">@(i + 1).</h4>
+                    <div style="width: 60%">
+                        <input class="contenido mb-3 pb-3" type="text" name="Respuesta@(i+1)" style="width: 97%" required/>
+                    </div>
+                    <div class="correcta d-flex justify-content-end">
+                        <div>
+                            <input class="RespCorrecta" type="radio" id="true @i" name="Correcta @i" value="0" checked/>
+                            <label class="respcorrecta p-2 pe-3 ps-3" for="true @i" style="background-color: green"><b>✔</b></label>
+                        </div>
+                        <div class="ms-4">
+                            <input class="RespIncorrecta" type="radio" id="false @i" name="Correcta @i" value="1" checked/>
+                            <label class="respincorrecta p-2 pe-3 ps-3" for="false @i" style="background-color: red"><b>✘</b></label>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+
+        <div id="button" class="d-flex justify-content-center mt-5">
+            <button type="submit" class="btn btn-primary bg-warning border border-warning" style="border-radius: 25px; width: 20vw; height: 7vh;">Crear Pregunta</button>
+        </div>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            function updateStyles(groupIndex) {
+                const correctRadio = document.querySelector(`input.RespCorrecta[id^="true ${groupIndex}"]`);
+                const incorrectRadio = document.querySelector(`input.RespIncorrecta[id^="false ${groupIndex}"]`);
+                const correctLabel = document.querySelector(`label[for="true ${groupIndex}"]`);
+                const incorrectLabel = document.querySelector(`label[for="false ${groupIndex}"]`);
+
+                if (correctRadio && incorrectRadio && correctLabel && incorrectLabel) {
+                    if (correctRadio.checked) {
+                        correctLabel.classList.remove('low-brightness');
+                        incorrectLabel.classList.add('low-brightness');
+                    } else if (incorrectRadio.checked) {
+                        incorrectLabel.classList.remove('low-brightness');
+                        correctLabel.classList.add('low-brightness');
+                    }
+                }
+            }
+
+            for (let i = 0; i < 4; i++) {
+                const correctRadio = document.querySelector(`input.RespCorrecta[id^="true ${i}"]`);
+                const incorrectRadio = document.querySelector(`input.RespIncorrecta[id^="false ${i}"]`);
+
+                if (correctRadio) {
+                    correctRadio.addEventListener('change', () => updateStyles(i));
+                }
+
+                if (incorrectRadio) {
+                    incorrectRadio.addEventListener('change', () => updateStyles(i));
+                }
+
+                updateStyles(i);
+            }
+        });
+    </script>
+</form>

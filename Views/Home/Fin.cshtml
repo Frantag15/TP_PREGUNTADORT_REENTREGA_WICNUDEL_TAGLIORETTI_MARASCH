@@ -1,0 +1,14 @@
+<div class="FinFondo d-flex align-items-center text-center" style="min-height: 100vh">
+    <div class="container">
+        <img class="mb-5" src="~/img/Preguntados.png" height="300">
+        <h1>¡Felicidades! Terminaste el juego!</h1>
+        <h4>Cantidad de Preguntas Correctas: @Juego.CantidadPreguntasCorrectas</h4>
+        <h4>Puntaje: @Juego.PuntajeActual</h4>
+
+        <form action='@Url.Action("ConfigurarJuego")'>
+            <button type="submit" class="btn btn-primary bg-warning border border-warning shadow-lg mt-4 Boton-Index" style="border-radius: 25px; width: 10vw; height:5vh;"><h2>Jugar</h2></button>
+        </form>
+
+        <script> localStorage.removeItem('tiempo'); </script>
+    </div>
+</div>

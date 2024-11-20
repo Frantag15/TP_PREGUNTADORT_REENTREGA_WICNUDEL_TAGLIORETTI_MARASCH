@@ -29,8 +29,8 @@ public static class Juego{
 
     public static void CargarPartidas(string username, int Dificultad, int Categoria){
         username = username;
-        Pregunta = BD.ObtenerPreguntas(Dificultad, Categoria);
-        Respuesta = BD.ObtenerRespuestas(Pregunta);
+        Preg = BD.ObtenerPreguntas(Dificultad, Categoria);
+        Resp = BD.ObtenerRespuestas(Preg);
     }
 
     public static Pregunta CrearPreguntas(int idCategoria, int idDificultad, string Enunciado, string Respuesta1, string Respuesta2, string Respuesta3, string Respuesta4, int Opcion1, int Opcion2, int Opcion3, int Opcion4, int Correcta)
@@ -41,37 +41,37 @@ public static class Juego{
     public static Pregunta ObtenerProximaPregunta()
     {
         Random rnd = new Random();
-        int SeleccionarPregRand = rnd.Next(0, Pregunta.Count());
+        int SeleccionarPregRand = rnd.Next(0, Preg.Count());
 
-        return Pregunta[SeleccionarPregRand];
+        return Preg[SeleccionarPregRand];
     }
 
     public static Pregunta EncontrarPregunta(int idPregunta)
     {
-        Preguntas pregunta = Pregunta.FirstOrDefault(p => p.IdPregunta == idPregunta);
+        Pregunta pregunta = Preg.FirstOrDefault(p => p.IdPregunta == idPregunta);
         return pregunta;
     }
 
     public static List<Respuesta> ObtenerProximasRespuestas(int idPregunta)
     {
-        List<Respuesta> ProxRespuestas = new List<Respuestaa>();
+        List<Respuesta> ProxRespuestas = new List<Respuesta>();
 
-        foreach(Respuestas resp in Respuesta){
-            if(r.IdPregunta == idPregunta){
+        foreach(Respuesta resp in Resp){
+            if(resp.IdPregunta == idPregunta){
                 ProxRespuestas.Add(resp);
             }
         }
 
         ProxRespuestas = ProxRespuestas.OrderBy(x=> Random.Shared.Next()).ToList();
-        return PosiblesRespuestas;
+        return ProxRespuestas;
     }
 
     public static bool VerificarRespuestas(int idPregunta, int idRespuesta)
     {
-        Respuesta respuestaCorrecta = Respuesta.FirstOrDefault(r => r.IdPregunta == idPregunta && r.Correcta);
-        Pregunta pregunta = Pregunta.FirstOrDefault(p => p.IdPregunta == idPregunta);
+        Respuesta respuestaCorrecta = Resp.FirstOrDefault(r => r.IdPregunta == idPregunta && r.esCorrecta);
+        Pregunta pregunta = Preg.FirstOrDefault(p => p.IdPregunta == idPregunta);
 
-        Pregunta.Remove(pregunta);
+        Preg.Remove(pregunta);
 
         if (respuestaCorrecta.IdRespuesta == idRespuesta) 
         {

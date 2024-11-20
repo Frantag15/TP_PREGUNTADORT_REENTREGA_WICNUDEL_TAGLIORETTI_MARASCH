@@ -29,8 +29,8 @@ canvas {
     transform: translate(-50%, -50%);
     width: 100px; /* Tamaño redondo */
     height: 100px; /* Tamaño redondo */
-    background-color: #2196F3; /* Azul */
-    color: #fff;
+    background-color: #2731b3; /* Azul */
+    color: #ffffff;
     border: none;
     border-radius: 50%; /* Redondear el botón */
     font-size: 18px;
@@ -43,7 +43,7 @@ canvas {
 }
 
 .girarBtn:hover {
-    background-color: #1976D2;
+    background-color: #2731b3;
     transform: translate(-50%, -50%) scale(1.1); /* Agrandar al pasar el mouse */
     box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.5); /* Sombra más intensa */
 }
@@ -63,7 +63,7 @@ canvas {
 
 #continuarBtn {
     margin-top: 20px;
-    background-color: #2196F3; /* Mismo color que el botón de girar */
+    background-color: #2731b3; /* Mismo color que el botón de girar */
     color: #fff;
     border: none;
     border-radius: 10px; /* Bordes redondeados */
@@ -81,6 +81,6 @@ canvas {
 }
 
 #continuarBtn:hover {
-    background-color: #1976D2;
+    background-color: #2731b3;
     box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.5); /* Sombra más intensa */
 }

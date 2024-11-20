@@ -268,3 +268,15 @@ C:\Users\51398893\Downloads\TP_ 6_PREGUNTADOS (2)\TP_ 6_PREGUNTADOS (3)\TP_ 6_PR
 C:\Users\51398893\Downloads\TP_ 6_PREGUNTADOS (2)\TP_ 6_PREGUNTADOS (3)\TP_ 6_PREGUNTADOS (2)\TP_ 6_PREGUNTADOS\TP_ 2_PREGUNTADOS\obj\Debug\net8.0\TP_PREGU.3C970D96.Up2Date
 C:\Users\51398893\Downloads\TP_ 6_PREGUNTADOS (2)\TP_ 6_PREGUNTADOS (3)\TP_ 6_PREGUNTADOS (2)\TP_ 6_PREGUNTADOS\TP_ 2_PREGUNTADOS\obj\Debug\net8.0\TP_PREGUNTADOS_1.genruntimeconfig.cache
 C:\Users\51398893\Downloads\TP_ 6_PREGUNTADOS (2)\TP_ 6_PREGUNTADOS (3)\TP_ 6_PREGUNTADOS (2)\TP_ 6_PREGUNTADOS\TP_ 2_PREGUNTADOS\obj\Debug\net8.0\ref\TP_PREGUNTADOS_1.dll
+C:\Users\48178331\Downloads\Tp7_Marasch_Taglioretti_Wicnudel-20241120T110247Z-001\Tp7_Marasch_Taglioretti_Wicnudel\obj\Debug\net8.0\TP_PREGUNTADOS_1.csproj.AssemblyReference.cache
+C:\Users\48178331\Downloads\Tp7_Marasch_Taglioretti_Wicnudel-20241120T110247Z-001\Tp7_Marasch_Taglioretti_Wicnudel\obj\Debug\net8.0\TP_PREGUNTADOS_1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\48178331\Downloads\Tp7_Marasch_Taglioretti_Wicnudel-20241120T110247Z-001\Tp7_Marasch_Taglioretti_Wicnudel\obj\Debug\net8.0\TP_PREGUNTADOS_1.AssemblyInfoInputs.cache
+C:\Users\48178331\Downloads\Tp7_Marasch_Taglioretti_Wicnudel-20241120T110247Z-001\Tp7_Marasch_Taglioretti_Wicnudel\obj\Debug\net8.0\TP_PREGUNTADOS_1.AssemblyInfo.cs
+C:\Users\48178331\Downloads\Tp7_Marasch_Taglioretti_Wicnudel-20241120T110247Z-001\Tp7_Marasch_Taglioretti_Wicnudel\obj\Debug\net8.0\TP_PREGUNTADOS_1.csproj.CoreCompileInputs.cache
+C:\Users\48178331\Downloads\Tp7_Marasch_Taglioretti_Wicnudel-20241120T110247Z-001\Tp7_Marasch_Taglioretti_Wicnudel\obj\Debug\net8.0\TP_PREGUNTADOS_1.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\48178331\Downloads\Tp7_Marasch_Taglioretti_Wicnudel-20241120T110247Z-001\Tp7_Marasch_Taglioretti_Wicnudel\obj\Debug\net8.0\TP_PREGUNTADOS_1.RazorAssemblyInfo.cache
+C:\Users\48178331\Downloads\Tp7_Marasch_Taglioretti_Wicnudel-20241120T110247Z-001\Tp7_Marasch_Taglioretti_Wicnudel\obj\Debug\net8.0\TP_PREGUNTADOS_1.RazorAssemblyInfo.cs
+C:\Users\48178331\Downloads\Tp7_Marasch_Taglioretti_Wicnudel-20241120T110247Z-001\Tp7_Marasch_Taglioretti_Wicnudel\obj\Debug\net8.0\TP_PREGUNTADOS_1.sourcelink.json
+C:\Users\48178331\Downloads\Tp7_Marasch_Taglioretti_Wicnudel-20241120T110247Z-001\Tp7_Marasch_Taglioretti_Wicnudel\obj\Debug\net8.0\TP_PREGUNTADOS_1.dll
+C:\Users\48178331\Downloads\Tp7_Marasch_Taglioretti_Wicnudel-20241120T110247Z-001\Tp7_Marasch_Taglioretti_Wicnudel\obj\Debug\net8.0\refint\TP_PREGUNTADOS_1.dll
+C:\Users\48178331\Downloads\Tp7_Marasch_Taglioretti_Wicnudel-20241120T110247Z-001\Tp7_Marasch_Taglioretti_Wicnudel\obj\Debug\net8.0\TP_PREGUNTADOS_1.pdb

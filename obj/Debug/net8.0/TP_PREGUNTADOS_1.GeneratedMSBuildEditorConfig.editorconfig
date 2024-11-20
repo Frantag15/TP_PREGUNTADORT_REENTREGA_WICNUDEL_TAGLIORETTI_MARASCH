@@ -9,55 +9,63 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = TP_PREGUNTADOS_1
 build_property.RootNamespace = TP_PREGUNTADOS_1
-build_property.ProjectDir = C:\Users\51398893\Downloads\TP_ 6_PREGUNTADOS (2)\TP_ 6_PREGUNTADOS (3)\TP_ 6_PREGUNTADOS (2)\TP_ 6_PREGUNTADOS\TP_ 2_PREGUNTADOS\
+build_property.ProjectDir = c:\Users\48178331\Downloads\Tp7_Marasch_Taglioretti_Wicnudel-20241120T110247Z-001\Tp7_Marasch_Taglioretti_Wicnudel\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\51398893\Downloads\TP_ 6_PREGUNTADOS (2)\TP_ 6_PREGUNTADOS (3)\TP_ 6_PREGUNTADOS (2)\TP_ 6_PREGUNTADOS\TP_ 2_PREGUNTADOS
+build_property.MSBuildProjectDirectory = c:\Users\48178331\Downloads\Tp7_Marasch_Taglioretti_Wicnudel-20241120T110247Z-001\Tp7_Marasch_Taglioretti_Wicnudel
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/51398893/Downloads/TP_ 6_PREGUNTADOS (2)/TP_ 6_PREGUNTADOS (3)/TP_ 6_PREGUNTADOS (2)/TP_ 6_PREGUNTADOS/TP_ 2_PREGUNTADOS/Views/Home/ConfigurarJuego.cshtml]
+[c:/Users/48178331/Downloads/Tp7_Marasch_Taglioretti_Wicnudel-20241120T110247Z-001/Tp7_Marasch_Taglioretti_Wicnudel/Views/Home/ConfigurarJuego.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDb25maWd1cmFySnVlZ28uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/51398893/Downloads/TP_ 6_PREGUNTADOS (2)/TP_ 6_PREGUNTADOS (3)/TP_ 6_PREGUNTADOS (2)/TP_ 6_PREGUNTADOS/TP_ 2_PREGUNTADOS/Views/Home/Creditos.cshtml]
+[c:/Users/48178331/Downloads/Tp7_Marasch_Taglioretti_Wicnudel-20241120T110247Z-001/Tp7_Marasch_Taglioretti_Wicnudel/Views/Home/CrearPregunta.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDcmVhclByZWd1bnRhLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/48178331/Downloads/Tp7_Marasch_Taglioretti_Wicnudel-20241120T110247Z-001/Tp7_Marasch_Taglioretti_Wicnudel/Views/Home/Creditos.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDcmVkaXRvcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/51398893/Downloads/TP_ 6_PREGUNTADOS (2)/TP_ 6_PREGUNTADOS (3)/TP_ 6_PREGUNTADOS (2)/TP_ 6_PREGUNTADOS/TP_ 2_PREGUNTADOS/Views/Home/Index.cshtml]
+[c:/Users/48178331/Downloads/Tp7_Marasch_Taglioretti_Wicnudel-20241120T110247Z-001/Tp7_Marasch_Taglioretti_Wicnudel/Views/Home/Fin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxGaW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/48178331/Downloads/Tp7_Marasch_Taglioretti_Wicnudel-20241120T110247Z-001/Tp7_Marasch_Taglioretti_Wicnudel/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/51398893/Downloads/TP_ 6_PREGUNTADOS (2)/TP_ 6_PREGUNTADOS (3)/TP_ 6_PREGUNTADOS (2)/TP_ 6_PREGUNTADOS/TP_ 2_PREGUNTADOS/Views/Home/Juego.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxKdWVnby5jc2h0bWw=
+[c:/Users/48178331/Downloads/Tp7_Marasch_Taglioretti_Wicnudel-20241120T110247Z-001/Tp7_Marasch_Taglioretti_Wicnudel/Views/Home/Jugar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxKdWdhci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/51398893/Downloads/TP_ 6_PREGUNTADOS (2)/TP_ 6_PREGUNTADOS (3)/TP_ 6_PREGUNTADOS (2)/TP_ 6_PREGUNTADOS/TP_ 2_PREGUNTADOS/Views/Home/Privacy.cshtml]
+[c:/Users/48178331/Downloads/Tp7_Marasch_Taglioretti_Wicnudel-20241120T110247Z-001/Tp7_Marasch_Taglioretti_Wicnudel/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/51398893/Downloads/TP_ 6_PREGUNTADOS (2)/TP_ 6_PREGUNTADOS (3)/TP_ 6_PREGUNTADOS (2)/TP_ 6_PREGUNTADOS/TP_ 2_PREGUNTADOS/Views/Home/Respuesta.cshtml]
+[c:/Users/48178331/Downloads/Tp7_Marasch_Taglioretti_Wicnudel-20241120T110247Z-001/Tp7_Marasch_Taglioretti_Wicnudel/Views/Home/Respuesta.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxSZXNwdWVzdGEuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/51398893/Downloads/TP_ 6_PREGUNTADOS (2)/TP_ 6_PREGUNTADOS (3)/TP_ 6_PREGUNTADOS (2)/TP_ 6_PREGUNTADOS/TP_ 2_PREGUNTADOS/Views/Shared/Error.cshtml]
+[c:/Users/48178331/Downloads/Tp7_Marasch_Taglioretti_Wicnudel-20241120T110247Z-001/Tp7_Marasch_Taglioretti_Wicnudel/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/51398893/Downloads/TP_ 6_PREGUNTADOS (2)/TP_ 6_PREGUNTADOS (3)/TP_ 6_PREGUNTADOS (2)/TP_ 6_PREGUNTADOS/TP_ 2_PREGUNTADOS/Views/Shared/_ValidationScriptsPartial.cshtml]
+[c:/Users/48178331/Downloads/Tp7_Marasch_Taglioretti_Wicnudel-20241120T110247Z-001/Tp7_Marasch_Taglioretti_Wicnudel/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/51398893/Downloads/TP_ 6_PREGUNTADOS (2)/TP_ 6_PREGUNTADOS (3)/TP_ 6_PREGUNTADOS (2)/TP_ 6_PREGUNTADOS/TP_ 2_PREGUNTADOS/Views/_ViewImports.cshtml]
+[c:/Users/48178331/Downloads/Tp7_Marasch_Taglioretti_Wicnudel-20241120T110247Z-001/Tp7_Marasch_Taglioretti_Wicnudel/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/51398893/Downloads/TP_ 6_PREGUNTADOS (2)/TP_ 6_PREGUNTADOS (3)/TP_ 6_PREGUNTADOS (2)/TP_ 6_PREGUNTADOS/TP_ 2_PREGUNTADOS/Views/_ViewStart.cshtml]
+[c:/Users/48178331/Downloads/Tp7_Marasch_Taglioretti_Wicnudel-20241120T110247Z-001/Tp7_Marasch_Taglioretti_Wicnudel/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/51398893/Downloads/TP_ 6_PREGUNTADOS (2)/TP_ 6_PREGUNTADOS (3)/TP_ 6_PREGUNTADOS (2)/TP_ 6_PREGUNTADOS/TP_ 2_PREGUNTADOS/Views/Shared/_Layout.cshtml]
+[c:/Users/48178331/Downloads/Tp7_Marasch_Taglioretti_Wicnudel-20241120T110247Z-001/Tp7_Marasch_Taglioretti_Wicnudel/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-t3uhh3ktsf

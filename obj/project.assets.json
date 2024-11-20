@@ -505,23 +505,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\51398893\\.nuget\\packages\\": {},
+    "C:\\Users\\48178331\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\51398893\\Downloads\\TP_ 6_PREGUNTADOS (2)\\TP_ 6_PREGUNTADOS (3)\\TP_ 6_PREGUNTADOS (2)\\TP_ 6_PREGUNTADOS\\TP_ 2_PREGUNTADOS\\TP_PREGUNTADOS_1.csproj",
+      "projectUniqueName": "C:\\Users\\48178331\\Downloads\\Tp7_Marasch_Taglioretti_Wicnudel-20241120T110247Z-001\\Tp7_Marasch_Taglioretti_Wicnudel\\TP_PREGUNTADOS_1.csproj",
       "projectName": "TP_PREGUNTADOS_1",
-      "projectPath": "C:\\Users\\51398893\\Downloads\\TP_ 6_PREGUNTADOS (2)\\TP_ 6_PREGUNTADOS (3)\\TP_ 6_PREGUNTADOS (2)\\TP_ 6_PREGUNTADOS\\TP_ 2_PREGUNTADOS\\TP_PREGUNTADOS_1.csproj",
-      "packagesPath": "C:\\Users\\51398893\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\51398893\\Downloads\\TP_ 6_PREGUNTADOS (2)\\TP_ 6_PREGUNTADOS (3)\\TP_ 6_PREGUNTADOS (2)\\TP_ 6_PREGUNTADOS\\TP_ 2_PREGUNTADOS\\obj\\",
+      "projectPath": "C:\\Users\\48178331\\Downloads\\Tp7_Marasch_Taglioretti_Wicnudel-20241120T110247Z-001\\Tp7_Marasch_Taglioretti_Wicnudel\\TP_PREGUNTADOS_1.csproj",
+      "packagesPath": "C:\\Users\\48178331\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\48178331\\Downloads\\Tp7_Marasch_Taglioretti_Wicnudel-20241120T110247Z-001\\Tp7_Marasch_Taglioretti_Wicnudel\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\51398893\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\48178331\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],

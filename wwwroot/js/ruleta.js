@@ -1,8 +1,8 @@
-let buttonClicked = false;
-const categorias = ["Futbol Sudamericano", "Futbol Europeo", "Decada 2000", "Todas las categorias"];
-const colores = ["#FF6F61", "#6B5B95", "#88B04B", "#F7CAC9", "#92A8D1"];
+const categorias = ["Ciencia", "Historia", "Geografía", "Entretenimiento", "Deportes"];
+const colores = ["#88B04B", "#FFD700", "#92A8D1", "#FF6F61", "#FFA500"];
 const numSecciones = categorias.length;
 const anguloPorSeccion = 2 * Math.PI / numSecciones;
+
 const canvas = document.getElementById("canvas");
 const ctx = canvas.getContext("2d");
 const Username = document.getElementById("Username");
@@ -14,8 +14,8 @@ const categoriasTocada = document.getElementById("categoriaElegida");
 
 let Categoria = document.getElementById("categorias");
 
-ruleta.style.visibility="hidden";
-Jugar.style.visibility="hidden";
+ruleta.style.visibility = "hidden";
+Jugar.style.visibility = "hidden";
 
 let anguloInicial = 0;
 
@@ -44,14 +44,16 @@ function dibujarRuleta() {
     }
 }
 
-function ingresarUsuario()
+function ingresarUsuario() 
 {
-    if(nombre.value != ""){
+    if (nombre.value != "") 
+    {
         event.preventDefault();
-        Username.style.visibility ="hidden";
-        ruleta.style.visibility="visible";
-    }
-    else{
+        Username.style.visibility = "hidden";
+        ruleta.style.visibility = "visible";
+    } else 
+    {
+        alert("Por favor, ingrese un nombre de usuario.");
     }
 }
 
@@ -65,29 +67,30 @@ function girarRuleta()
     canvas.style.transition = `transform ${duracion}s ease-out`;
     canvas.style.transform = `rotate(${rotacion}deg)`;
 
-    setTimeout(() => {
+    setTimeout(() => 
+    {
         const anguloFinal = rotacion % 360;
         const indiceGanador = Math.floor(numSecciones - (anguloFinal / 360) * numSecciones) % numSecciones;
-        
-        Jugar.style.visibility="visible";
+
+        Jugar.style.visibility = "visible";
 
         categoriasTocada.value = categorias[indiceGanador];
 
-        if(categorias[indiceGanador] === "Futbol Europeo")
+        if (categorias[indiceGanador] === "Ciencia") 
         {
             Categoria.value = 1;
-        }
-        else if(categorias[indiceGanador] === "Futbol Sudamericano")
+        } else if (categorias[indiceGanador] === "Historia")
         {
             Categoria.value = 2;
-        }
-        else if(categorias[indiceGanador] === "Decada 2000")
+        } else if (categorias[indiceGanador] === "Geografía") 
         {
             Categoria.value = 3;
-        }
-        else
+        } else if (categorias[indiceGanador] === "Entretenimiento") 
         {
             Categoria.value = 4;
+        } else 
+        {
+            Categoria.value = 5;
         }
 
         console.log(Categoria.value);

@@ -7,7 +7,8 @@ let timer = setInterval(function() {
 
     localStorage.setItem('tiempo', tiempo);
 
-    if (tiempo <= 0) {
+    if (tiempo <= 0) 
+    {
         clearInterval(timer);
         location.href = '/Home/Fin';
 

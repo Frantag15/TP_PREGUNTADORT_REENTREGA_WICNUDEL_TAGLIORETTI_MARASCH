@@ -69,33 +69,40 @@
     </div>
 
     <script>
-        document.addEventListener('DOMContentLoaded', function () {
+        document.addEventListener('DOMContentLoaded', function () 
+        {
             function updateStyles(groupIndex) {
                 const correctRadio = document.querySelector(`input.RespCorrecta[id^="true ${groupIndex}"]`);
                 const incorrectRadio = document.querySelector(`input.RespIncorrecta[id^="false ${groupIndex}"]`);
                 const correctLabel = document.querySelector(`label[for="true ${groupIndex}"]`);
                 const incorrectLabel = document.querySelector(`label[for="false ${groupIndex}"]`);
 
-                if (correctRadio && incorrectRadio && correctLabel && incorrectLabel) {
-                    if (correctRadio.checked) {
+                if (correctRadio && incorrectRadio && correctLabel && incorrectLabel) 
+                {
+                    if (correctRadio.checked) 
+                    {
                         correctLabel.classList.remove('low-brightness');
                         incorrectLabel.classList.add('low-brightness');
-                    } else if (incorrectRadio.checked) {
+                    } else if (incorrectRadio.checked) 
+                    {
                         incorrectLabel.classList.remove('low-brightness');
                         correctLabel.classList.add('low-brightness');
                     }
                 }
             }
 
-            for (let i = 0; i < 4; i++) {
+            for (let i = 0; i < 4; i++) 
+            {
                 const correctRadio = document.querySelector(`input.RespCorrecta[id^="true ${i}"]`);
                 const incorrectRadio = document.querySelector(`input.RespIncorrecta[id^="false ${i}"]`);
 
-                if (correctRadio) {
+                if (correctRadio) 
+                {
                     correctRadio.addEventListener('change', () => updateStyles(i));
                 }
 
-                if (incorrectRadio) {
+                if (incorrectRadio) 
+                {
                     incorrectRadio.addEventListener('change', () => updateStyles(i));
                 }
 

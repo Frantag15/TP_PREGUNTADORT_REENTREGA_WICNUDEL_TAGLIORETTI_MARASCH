@@ -1,321 +1,45 @@
 USE PreguntadORT;
 GO
 
--- Tabla Categoria
+-- Tabla Categorias
 CREATE TABLE Categorias (
     IdCategoria INT PRIMARY KEY IDENTITY(1,1),
     Nombre NVARCHAR(100) NOT NULL
 );
 GO
 
--- Tabla Dificultad
+-- Tabla Dificultades
 CREATE TABLE Dificultades (
     IdDificultad INT PRIMARY KEY IDENTITY(1,1),
     Nivel NVARCHAR(50) NOT NULL
 );
 GO
 
--- Tabla Pregunta
+-- Tabla Preguntas
 CREATE TABLE Preguntas (
     IdPregunta INT PRIMARY KEY IDENTITY(1,1),
     Texto NVARCHAR(MAX) NOT NULL,
-    IdCategoria INT FOREIGN KEY REFERENCES Categoria(IdCategoria),
-    IdDificultad INT FOREIGN KEY REFERENCES Dificultad(IdDificultad)
+    IdCategoria INT FOREIGN KEY REFERENCES Categorias(IdCategoria),
+    IdDificultad INT FOREIGN KEY REFERENCES Dificultades(IdDificultad)
 );
 GO
 
--- Tabla Respuesta
+-- Tabla Respuestas
 CREATE TABLE Respuestas (
     IdRespuesta INT PRIMARY KEY IDENTITY(1,1),
     Texto NVARCHAR(MAX) NOT NULL,
     EsCorrecta BIT NOT NULL,
-    IdPregunta INT FOREIGN KEY REFERENCES Pregunta(IdPregunta)
+    IdPregunta INT FOREIGN KEY REFERENCES Preguntas(IdPregunta)
 );
 GO
 
 INSERT INTO Categorias (Nombre) 
 VALUES 
-    ('Geograf�a'),
+    ('Geografia'),
     ('Historia'),
     ('Ciencia'),
     ('Entretenimiento'),
     ('Deportes');
-GO
-
---Geograf�a
---F�cil
-INSERT INTO Preguntas (Texto, IdCategoria, IdDificultad)
-    ('�Cu�l es la capital de Italia?', 1, 1),
-    ('�En qu� continente se encuentra Brasil?', 1, 1),
-    ('�Cu�l es el r�o m�s largo del mundo?', 1, 1),
-    ('�Cu�l es el desierto m�s grande del mundo?', 1, 1),
-    ('�En qu� pa�s se encuentra la Torre Eiffel?', 1, 1);
-GO
-
-INSERT INTO Respuestas (Texto, EsCorrecta, IdPregunta) 
-VALUES 
-    ('Roma', 1, 1), ('Mil�n', 0, 1), ('Venecia', 0, 1), ('N�poles', 0, 1),
-    ('Am�rica del Sur', 1, 2), ('�frica', 0, 2), ('Asia', 0, 2), ('Europa', 0, 2),
-    ('Amazonas', 1, 3), ('Nilo', 0, 3), ('Yangts�', 0, 3), ('Misisipi', 0, 3),
-    ('Sahara', 1, 4), ('Gobi', 0, 4), ('Atacama', 0, 4), ('Kalahari', 0, 4),
-    ('Francia', 1, 5), ('Italia', 0, 5), ('Espa�a', 0, 5), ('Alemania', 0, 5);
-GO
-
---Medio
-INSERT INTO Preguntas (Texto, IdCategoria, IdDificultad) 
-VALUES 
-    ('�Qu� pa�s tiene m�s costas en el mundo?', 1, 2),
-    ('�D�nde se encuentra el Monte Everest?', 1, 2),
-    ('�Cu�l es el pa�s m�s peque�o del mundo?', 1, 2),
-    ('�Qu� mar separa Europa de �frica?', 1, 2),
-    ('�Cu�l es la ciudad m�s poblada del mundo?', 1, 2);
-GO
-
-INSERT INTO Respuestas (Texto, EsCorrecta, IdPregunta) 
-VALUES 
-    ('Canad�', 1, 6), ('Rusia', 0, 6), ('Australia', 0, 6), ('Indonesia', 0, 6),
-    ('En la frontera entre Nepal y China', 1, 7), ('India', 0, 7), ('Pakist�n', 0, 7), ('Afganist�n', 0, 7),
-    ('Ciudad del Vaticano', 1, 8), ('M�naco', 0, 8), ('San Marino', 0, 8), ('Liechtenstein', 0, 8),
-    ('Mar Mediterr�neo', 1, 9), ('Mar Rojo', 0, 9), ('Mar Negro', 0, 9), ('Mar Caspio', 0, 9),
-    ('Tokio', 1, 10), ('Delhi', 0, 10), ('Shanghai', 0, 10), ('S�o Paulo', 0, 10);
-GO
---Dif�cil
-INSERT INTO Preguntas (Texto, IdCategoria, IdDificultad) 
-VALUES 
-    ('�Cu�l es el pa�s con m�s islas en el mundo?', 1, 3),
-    ('�D�nde est� el desierto de Atacama?', 1, 3),
-    ('�Qu� pa�s tiene la mayor poblaci�n musulmana?', 1, 3),
-    ('�Cu�l es la capital de Mongolia?', 1, 3),
-    ('�Qu� pa�s tiene la selva m�s grande del mundo?', 1, 3);
-GO
-
-INSERT INTO Respuestas (Texto, EsCorrecta, IdPregunta) 
-VALUES 
-    ('Suecia', 1, 11), ('Noruega', 0, 11), ('Filipinas', 0, 11), ('Grecia', 0, 11),
-    ('Chile', 1, 12), ('Per�', 0, 12), ('Argentina', 0, 12), ('Bolivia', 0, 12),
-    ('Indonesia', 1, 13), ('Pakist�n', 0, 13), ('Banglad�s', 0, 13), ('Turqu�a', 0, 13),
-    ('Ul�n Bator', 1, 14), ('Biskek', 0, 14), ('Astana', 0, 14), ('Dushamb�', 0, 14),
-    ('Brasil', 1, 15), ('Congo', 0, 15), ('Indonesia', 0, 15), ('Madagascar', 0, 15);
-GO
---Historia
---F�cil
-INSERT INTO Preguntas (Texto, IdCategoria, IdDificultad) 
-VALUES 
-    ('�Qui�n fue el primer presidente de los Estados Unidos?', 2, 1),
-    ('�En qu� a�o termin� la Segunda Guerra Mundial?', 2, 1),
-    ('�Qui�n descubri� Am�rica?', 2, 1),
-    ('�Qu� imperio construy� el Coliseo?', 2, 1),
-    ('�Qui�n fue el l�der del Imperio Napole�nico?', 2, 1);
-GO
-
-INSERT INTO Respuestas (Texto, EsCorrecta, IdPregunta) 
-VALUES 
-    ('George Washington', 1, 16), ('Abraham Lincoln', 0, 16), ('Thomas Jefferson', 0, 16), ('John Adams', 0, 16),
-    ('1945', 1, 17), ('1939', 0, 17), ('1941', 0, 17), ('1944', 0, 17),
-    ('Crist�bal Col�n', 1, 18), ('Amerigo Vespucci', 0, 18), ('Fernando de Magallanes', 0, 18), ('Hern�n Cort�s', 0, 18),
-    ('Imperio Romano', 1, 19), ('Imperio Griego', 0, 19), ('Imperio Bizantino', 0, 19), ('Imperio Otomano', 0, 19),
-    ('Napole�n Bonaparte', 1, 20), ('Luis XIV', 0, 20), ('Carlos Magno', 0, 20), ('Felipe II', 0, 20);
-GO
---Medio
-INSERT INTO Preguntas (Texto, IdCategoria, IdDificultad) 
-VALUES 
-    ('�En qu� a�o comenz� la Revoluci�n Francesa?', 2, 2),
-    ('�Qu� civilizaci�n construy� las pir�mides de Giza?', 2, 2),
-    ('�Qui�n fue el primer emperador de Roma?', 2, 2),
-    ('�En qu� a�o cay� el Imperio Romano de Occidente?', 2, 2),
-    ('�Qu� pa�s lider� la Revoluci�n Industrial?', 2, 2);
-GO
-
-INSERT INTO Respuestas (Texto, EsCorrecta, IdPregunta) 
-VALUES 
-    ('1789', 1, 21), ('1776', 0, 21), ('1799', 0, 21), ('1804', 0, 21),
-    ('Egipto', 1, 22), ('Mesopotamia', 0, 22), ('Asiria', 0, 22), ('Babilonia', 0, 22),
-    ('Augusto', 1, 23), ('Julio C�sar', 0, 23), ('Tiberio', 0, 23), ('Ner�n', 0, 23),
-    ('476 d.C.', 1, 24), ('410 d.C.', 0, 24), ('395 d.C.', 0, 24), ('1453 d.C.', 0, 24),
-    ('Reino Unido', 1, 25), ('Alemania', 0, 25), ('Francia', 0, 25), ('Estados Unidos', 0, 25);
-GO
---Dif�cil
-INSERT INTO Preguntas (Texto, IdCategoria, IdDificultad) 
-VALUES 
-    ('�Qui�n fue el primer fara�n de Egipto?', 2, 3),
-    ('�Cu�l es el documento m�s antiguo conocido que tiene el c�digo de leyes escrito?', 2, 3),
-    ('�Qu� guerra se luch� entre 1337 y 1453?', 2, 3),
-    ('�Qui�n fue el fundador del Imperio Mongol?', 2, 3),
-    ('�En qu� a�o se firm� la Carta Magna?', 2, 3);
-GO
-
-INSERT INTO Respuestas (Texto, EsCorrecta, IdPregunta) 
-VALUES 
-    ('Narmer', 1, 26), ('Tutankam�n', 0, 26), ('Rams�s II', 0, 26), ('Cleopatra', 0, 26),
-    ('C�digo de Hammurabi', 1, 27), ('Edicto de Asoka', 0, 27), ('Las Doce Tablas', 0, 27), ('Ley de las XII Tablas', 0, 27),
-    ('La Guerra de los Cien A�os', 1, 28), ('La Guerra de las Rosas', 0, 28), ('La Guerra de Sucesi�n Espa�ola', 0, 28), ('La Guerra de los Treinta A�os', 0, 28),
-    ('Gengis Kan', 1, 29), ('Kublai Kan', 0, 29), ('Tamerl�n', 0, 29), ('Ogodei Kan', 0, 29),
-    ('1215', 1, 30), ('1066', 0, 30), ('1492', 0, 30), ('1689', 0, 30);
-GO
---Ciencia
---F�cil
-INSERT INTO Preguntas (Texto, IdCategoria, IdDificultad) 
-VALUES 
-    ('�Cu�l es el planeta m�s cercano al Sol?', 3, 1),
-    ('�Qu� gas respiramos?', 3, 1),
-    ('�Qu� animal es conocido como el "rey de la selva"?', 3, 1),
-    ('�Cu�ntos sentidos tiene el ser humano?', 3, 1),
-    ('�Qu� tipo de animal es una ballena?', 3, 1);
-GO
-
-INSERT INTO Respuestas (Texto, EsCorrecta, PreguntaId) 
-VALUES 
-    ('Mercurio', 1, 31), ('Venus', 0, 31), ('Tierra', 0, 31), ('Marte', 0, 31),
-    ('Ox�geno', 1, 32), ('Nitr�geno', 0, 32), ('Hidr�geno', 0, 32), ('Di�xido de carbono', 0, 32),
-    ('Le�n', 1, 33), ('Tigre', 0, 33), ('Elefante', 0, 33), ('Jirafa', 0, 33),
-    ('Cinco', 1, 34), ('Cuatro', 0, 34), ('Seis', 0, 34), ('Siete', 0, 34),
-    ('Mam�fero', 1, 35), ('Pez', 0, 35), ('Anfibio', 0, 35), ('Reptil', 0, 35);
-GO
---Medio
-INSERT INTO Preguntas (Texto, IdCategoria, IdDificultad) 
-VALUES 
-    ('�Qu� es el H2O?', 3, 2),
-    ('�Qui�n formul� la teor�a de la relatividad?', 3, 2),
-    ('�Cu�l es el �rgano m�s grande del cuerpo humano?', 3, 2),
-    ('�Qu� cient�fico descubri� la penicilina?', 3, 2),
-    ('�Cu�l es el elemento qu�mico m�s abundante en la atm�sfera terrestre?', 3, 2);
-GO
-
-INSERT INTO Respuestas (Texto, EsCorrecta, IdPregunta) 
-VALUES 
-    ('Agua', 1, 36), ('Di�xido de carbono', 0, 36), ('Ox�geno', 0, 36), ('Hidr�geno', 0, 36),
-    ('Albert Einstein', 1, 37), ('Isaac Newton', 0, 37), ('Galileo Galilei', 0, 37), ('Nikola Tesla', 0, 37),
-    ('La piel', 1, 38), ('El coraz�n', 0, 38), ('El h�gado', 0, 38), ('Los pulmones', 0, 38),
-    ('Alexander Fleming', 1, 39), ('Louis Pasteur', 0, 39), ('Marie Curie', 0, 39), ('Gregor Mendel', 0, 39),
-    ('Nitr�geno', 1, 40), ('Ox�geno', 0, 40), ('Arg�n', 0, 40), ('Di�xido de carbono', 0, 40);
-GO
---Dif�cil
-INSERT INTO Preguntas (Texto, IdCategoria, IdDificultad) 
-VALUES 
-    ('�Cu�l es la part�cula subat�mica con carga negativa?', 3, 3),
-    ('�Qu� es el bos�n de Higgs?', 3, 3),
-    ('�Qu� es un agujero negro?', 3, 3),
-    ('�Qui�n desarroll� la teor�a de la evoluci�n por selecci�n natural?', 3, 3),
-    ('�Qu� es el ADN?', 3, 3);
-GO
-
-INSERT INTO Respuestas (Texto, EsCorrecta, IdPregunta) 
-VALUES 
-    ('Electr�n', 1, 41), ('Prot�n', 0, 41), ('Neutr�n', 0, 41), ('Quark', 0, 41),
-    ('Una part�cula fundamental que da masa a otras part�culas', 1, 42), ('Una estrella colapsada', 0, 42), ('Una forma de energ�a', 0, 42), ('Un tipo de materia oscura', 0, 42),
-    ('Una regi�n del espacio donde la gravedad es tan fuerte que nada puede escapar', 1, 43), ('Una galaxia', 0, 43), ('Un planeta', 0, 43), ('Una estrella', 0, 43),
-    ('Charles Darwin', 1, 44), ('Gregor Mendel', 0, 44), ('Louis Pasteur', 0, 44), ('Alfred Wallace', 0, 44),
-    ('�cido desoxirribonucleico', 1, 45), ('Prote�na', 0, 45), ('Enzima', 0, 45), ('L�pido', 0, 45);
-GO
---Entretenimiento
---F�cil
-INSERT INTO Preguntas (Texto, IdCategoria, IdDificultad) 
-VALUES 
-    ('�Cu�l es el nombre del rat�n m�s famoso de Disney?', 4, 1),
-    ('�Qu� superh�roe es conocido como el Hombre de Acero?', 4, 1),
-    ('�En qu� pel�cula animada aparece el personaje Simba?', 4, 1),
-    ('�Qui�n es el director de la pel�cula "Titanic"?', 4, 1),
-    ('�Qu� serie de televisi�n popular tiene a un grupo de amigos viviendo en Nueva York?', 4, 1);
-GO
-
-INSERT INTO Respuestas (Texto, EsCorrecta, IdPregunta) 
-VALUES 
-    ('Mickey Mouse', 1, 41), ('Donald Duck', 0, 41), ('Goofy', 0, 41), ('Pluto', 0, 41),
-    ('Superman', 1, 42), ('Batman', 0, 42), ('Spiderman', 0, 42), ('Hulk', 0, 42),
-    ('El Rey Le�n', 1, 43), ('Aladd�n', 0, 43), ('La Sirenita', 0, 43), ('Blancanieves', 0, 43),
-    ('James Cameron', 1, 44), ('Steven Spielberg', 0, 44), ('Christopher Nolan', 0, 44), ('Quentin Tarantino', 0, 44),
-    ('Friends', 1, 45), ('The Office', 0, 45), ('Seinfeld', 0, 45), ('How I Met Your Mother', 0, 45);
-GO
---Medio
-INSERT INTO Preguntas (Texto, IdCategoria, IdDificultad) 
-VALUES 
-    ('�Qu� banda brit�nica lanz� el �lbum "Abbey Road"?', 4, 2),
-    ('�Qui�n es el creador de la serie animada "Los Simpson"?', 4, 2),
-    ('�En qu� a�o se estren� la primera pel�cula de "Star Wars"?', 4, 2),
-    ('�Qu� actor interpret� a Jack Sparrow en "Piratas del Caribe"?', 4, 2),
-    ('�Cu�l es la pel�cula animada m�s taquillera de todos los tiempos?', 4, 2);
-GO
-
-INSERT INTO Respuestas (Texto, EsCorrecta, IdPregunta) 
-VALUES 
-    ('The Beatles', 1, 46), ('The Rolling Stones', 0, 46), ('Pink Floyd', 0, 46), ('Led Zeppelin', 0, 46),
-    ('Matt Groening', 1, 47), ('Seth MacFarlane', 0, 47), ('Trey Parker', 0, 47), ('Mike Judge', 0, 47),
-    ('1977', 1, 48), ('1980', 0, 48), ('1983', 0, 48), ('1974', 0, 48),
-    ('Johnny Depp', 1, 49), ('Orlando Bloom', 0, 49), ('Brad Pitt', 0, 49), ('Tom Cruise', 0, 49),
-    ('Frozen', 1, 50), ('Toy Story 3', 0, 50), ('El Rey Le�n', 0, 50), ('Shrek 2', 0, 50);
-GO
---Dif�cil
-INSERT INTO Preguntas (Texto, IdCategoria, IdDificultad) 
-VALUES 
-    ('�Qui�n escribi� la novela "Cien a�os de soledad"?', 4, 3),
-    ('�Qu� pel�cula gan� el primer premio Oscar a Mejor Pel�cula?', 4, 3),
-    ('�En qu� a�o se lanz� el videojuego "The Legend of Zelda"?', 4, 3),
-    ('�Qui�n es el creador de "Harry Potter"?', 4, 3),
-    ('�Qu� cantante es conocido como "El Rey del Pop"?', 4, 3);
-GO
-
-INSERT INTO Respuestas (Texto, EsCorrecta, IdPregunta) 
-VALUES 
-    ('Gabriel Garc�a M�rquez', 1, 51), ('Mario Vargas Llosa', 0, 51), ('Isabel Allende', 0, 51), ('Julio Cort�zar', 0, 51),
-    ('Wings', 1, 52), ('Gone with the Wind', 0, 52), ('The Jazz Singer', 0, 52), ('All Quiet on the Western Front', 0, 52),
-    ('1986', 1, 53), ('1985', 0, 53), ('1984', 0, 53), ('1987', 0, 53),
-    ('J.K. Rowling', 1, 54), ('J.R.R. Tolkien', 0, 54), ('George R.R. Martin', 0, 54), ('Stephen King', 0, 54),
-    ('Michael Jackson', 1, 55), ('Elvis Presley', 0, 55), ('Prince', 0, 55), ('David Bowie', 0, 55);
-GO
---Deporte
---F�cil
-INSERT INTO Preguntas (Texto, IdCategoria, IdDificultad) 
-VALUES 
-    ('�Qu� pa�s gan� la Copa Mundial de la FIFA 2018?', 5, 1),
-    ('�Qu� deporte se practica en Wimbledon?', 5, 1),
-    ('�Cu�ntos jugadores tiene un equipo de f�tbol en el campo?', 5, 1),
-    ('�Qu� atleta es conocido como "El Rayo"?', 5, 1),
-    ('�Qu� deporte se juega con una pelota ovalada y postes en forma de "H"?', 5, 1);
-GO
-
-INSERT INTO Respuestas (Texto, EsCorrecta, IdPregunta) 
-VALUES 
-    ('Francia', 1, 56), ('Croacia', 0, 56), ('Alemania', 0, 56), ('Brasil', 0, 56),
-    ('Tenis', 1, 57), ('Golf', 0, 57), ('Cr�quet', 0, 57), ('F�tbol', 0, 57),
-    ('11', 1, 58), ('10', 0, 58), ('12', 0, 58), ('9', 0, 58),
-    ('Usain Bolt', 1, 59), ('Michael Phelps', 0, 59), ('Cristiano Ronaldo', 0, 59), ('LeBron James', 0, 59),
-    ('Rugby', 1, 60), ('F�tbol americano', 0, 60), ('Baloncesto', 0, 60), ('Hockey', 0, 60);
-GO
---Medio
-INSERT INTO Preguntas (Texto, IdCategoria, IdDificultad) 
-VALUES 
-    ('�Qui�n tiene el r�cord de m�s goles en una Copa Mundial de la FIFA?', 5, 2),
-    ('�En qu� ciudad se celebraron los Juegos Ol�mpicos de 2008?', 5, 2),
-    ('�Cu�l es el equipo de la NBA con m�s campeonatos ganados?', 5, 2),
-    ('�Qu� deporte se juega en el "Super Bowl"?', 5, 2),
-    ('�En qu� pa�s se origin� el judo?', 5, 2);
-GO
-
-INSERT INTO Respuestas (Texto, EsCorrecta, IdPregunta) 
-VALUES 
-    ('Miroslav Klose', 1, 61), ('Ronaldo', 0, 61), ('Pel�', 0, 61), ('Gerd M�ller', 0, 61),
-    ('Pek�n', 1, 62), ('Londres', 0, 62), ('Atenas', 0, 62), ('S�dney', 0, 62),
-    ('Los Angeles Lakers', 1, 63), ('Boston Celtics', 0, 63), ('Chicago Bulls', 0, 63), ('Golden State Warriors', 0, 63),
-    ('F�tbol americano', 1, 64), ('Baloncesto', 0, 64), ('B�isbol', 0, 64), ('Hockey', 0, 64),
-    ('Jap�n', 1, 65), ('Corea del Sur', 0, 65), ('China', 0, 65), ('Rusia', 0, 65);
-GO
---Dif�cil
-INSERT INTO Preguntas (Texto, IdCategoria, IdDificultad) 
-VALUES 
-    ('�Qui�n es el m�ximo goleador en la historia de la Champions League?', 5, 3),
-    ('�Qu� equipo de b�isbol tiene m�s t�tulos de la Serie Mundial?', 5, 3),
-    ('�Qu� pa�s ha ganado m�s medallas en los Juegos Ol�mpicos de Verano?', 5, 3),
-    ('�Cu�l es el pa�s con m�s victorias en el Tour de Francia?', 5, 3),
-    ('�En qu� a�o gan� Rafael Nadal su primer t�tulo de Roland Garros?', 5, 3);
-GO
-
-INSERT INTO Respuestas (Texto, EsCorrecta, IdPregunta) 
-VALUES 
-    ('Cristiano Ronaldo', 1, 66), ('Lionel Messi', 0, 66), ('Ra�l', 0, 66), ('Robert Lewandowski', 0, 66),
-    ('New York Yankees', 1, 67), ('Los Angeles Dodgers', 0, 67), ('San Francisco Giants', 0, 67), ('St. Louis Cardinals', 0, 67),
-    ('Estados Unidos', 1, 68), ('China', 0, 68), ('Rusia', 0, 68), ('Reino Unido', 0, 68),
-    ('Francia', 1, 69), ('Espa�a', 0, 69), ('Italia', 0, 69), ('B�lgica', 0, 69),
-    ('2005', 1, 70), ('2004', 0, 70), ('2006', 0, 70), ('2003', 0, 70);
 GO
 
 INSERT INTO Dificultades (Nivel)
@@ -324,4 +48,282 @@ VALUES
     ('Medio'),
     ('Difícil');
 GO
+
+--Geografia
+--Facil
+INSERT INTO Preguntas (Texto, IdCategoria, IdDificultad) 
+VALUES 
+    (N'¿Cuál es la capital de Italia?', 1, 1),
+    (N'¿En qué continente se encuentra Brasil?', 1, 1),
+    (N'¿Cuál es el río más largo del mundo?', 1, 1),
+    (N'¿Cuál es el desierto más grande del mundo?', 1, 1),
+    (N'¿En qué país se encuentra la Torre Eiffel?', 1, 1);
+GO
+
+INSERT INTO Respuestas (Texto, EsCorrecta, IdPregunta)
+VALUES
+    (N'Roma', 1, 1), (N'Milán', 0, 1), (N'Venecia', 0, 1), (N'Nápoles', 0, 1),
+    (N'América del Sur', 1, 2), (N'África', 0, 2), (N'Asia', 0, 2), (N'Europa', 0, 2),
+    (N'Amazonas', 1, 3), (N'Nilo', 0, 3), (N'Yangtsé', 0, 3), (N'Misisipi', 0, 3),
+    (N'Sahara', 1, 4), (N'Gobi', 0, 4), (N'Atacama', 0, 4), (N'Kalahari', 0, 4),
+    (N'Francia', 1, 5), (N'Italia', 0, 5), (N'España', 0, 5), (N'Alemania', 0, 5);
+GO
+--Medio
+INSERT INTO Preguntas (Texto, IdCategoria, IdDificultad) 
+VALUES 
+    ('¿Cuál es la capital de Australia?', 4, 2),
+    ('¿Qué continente tiene más países?', 4, 2),
+    ('¿Cuál es el río más largo del mundo?', 4, 2),
+    ('¿Qué país tiene la mayor población del mundo?', 4, 2),
+    ('¿En qué país se encuentra la Torre Eiffel?', 4, 2);
+GO
+
+INSERT INTO Respuestas (Texto, IdPregunta, EsCorrecta) 
+VALUES 
+    ('Canberra', 26, 1),
+    ('África', 27, 1),
+    ('Nilo', 28, 1),
+    ('China', 29, 1),
+    ('Francia', 30, 1);
+GO
+--Dificil
+INSERT INTO Preguntas (Texto, IdCategoria, IdDificultad) 
+VALUES 
+    ('¿Cuál es el país más grande del mundo por superficie?', 2, 3),
+    ('¿Qué ciudad es conocida como "La ciudad de los canales"?', 2, 3),
+    ('¿Qué desierto es el más grande del mundo?', 2, 3),
+    ('¿Qué río es el más largo del mundo?', 2, 3),
+    ('¿Qué país tiene la mayor cantidad de islas en el mundo?', 2, 3);
+GO
+
+INSERT INTO Respuestas (Texto, EsCorrecta, IdPregunta) 
+VALUES 
+    ('Rusia', 1, 71), ('Canadá', 0, 71), ('China', 0, 71), ('Estados Unidos', 0, 71),
+    ('Venecia', 1, 72), ('Ámsterdam', 0, 72), ('Brujas', 0, 72), ('Bangkok', 0, 72),
+    ('Antártida', 1, 73), ('Sahara', 0, 73), ('Gobi', 0, 73), ('Kalahari', 0, 73),
+    ('Amazonas', 1, 74), ('Nilo', 0, 74), ('Yangtsé', 0, 74), ('Misisipi', 0, 74),
+    ('Suecia', 1, 75), ('Noruega', 0, 75), ('Filipinas', 0, 75), ('Indonesia', 0, 75);
+GO
+--Historia
+--Facil
+INSERT INTO Preguntas (Texto, IdCategoria, IdDificultad) 
+VALUES 
+    (N'¿Quién fue el primer presidente de los Estados Unidos?', 2, 1),
+    (N'¿En qué año terminó la Segunda Guerra Mundial?', 2, 1),
+    (N'¿Quién descubrió América?', 2, 1),
+    (N'¿Qué imperio construyó el Coliseo?', 2, 1),
+    (N'¿Quién fue el líder del Imperio Napoleónico?', 2, 1);
+GO
+
+INSERT INTO Respuestas (Texto, EsCorrecta, IdPregunta)
+VALUES
+    (N'George Washington', 1, 6), (N'Abraham Lincoln', 0, 6), (N'Thomas Jefferson', 0, 6), (N'John Adams', 0, 6),
+    (N'1945', 1, 7), (N'1939', 0, 7), (N'1941', 0, 7), (N'1944', 0, 7),
+    (N'Cristóbal Colón', 1, 8), (N'Amerigo Vespucci', 0, 8), (N'Fernando de Magallanes', 0, 8), (N'Hernán Cortés', 0, 8),
+    (N'Imperio Romano', 1, 9), (N'Imperio Griego', 0, 9), (N'Imperio Bizantino', 0, 9), (N'Imperio Otomano', 0, 9),
+    (N'Napoleón Bonaparte', 1, 10), (N'Luis XIV', 0, 10), (N'Carlos Magno', 0, 10), (N'Felipe II', 0, 10);
+GO
+--Medio
+INSERT INTO Preguntas (Texto, IdCategoria, IdDificultad) 
+VALUES 
+    ('¿En qué año comenzó la Segunda Guerra Mundial?', 3, 2),
+    ('¿Quién fue el primer presidente de los Estados Unidos?', 3, 2),
+    ('¿Qué imperio construyó la Muralla China?', 3, 2),
+    ('¿Cuál fue la capital del Imperio Azteca?', 3, 2),
+    ('¿En qué año cayó el Muro de Berlín?', 3, 2);
+GO
+
+INSERT INTO Respuestas (Texto, EsCorrecta, IdPregunta) 
+VALUES 
+    ('1939', 1, 76), ('1941', 0, 76), ('1937', 0, 76), ('1945', 0, 76),
+    ('George Washington', 1, 77), ('Thomas Jefferson', 0, 77), ('John Adams', 0, 77), ('Benjamin Franklin', 0, 77),
+    ('Dinastía Qin', 1, 78), ('Dinastía Han', 0, 78), ('Dinastía Ming', 0, 78), ('Dinastía Tang', 0, 78),
+    ('Tenochtitlán', 1, 79), ('Cuzco', 0, 79), ('Teotihuacán', 0, 79), ('Chichén Itzá', 0, 79),
+    ('1989', 1, 80), ('1990', 0, 80), ('1987', 0, 80), ('1991', 0, 80);
+GO
+--Dificil
+INSERT INTO Preguntas (Texto, IdCategoria, IdDificultad) 
+VALUES 
+    ('¿Quién fue el último emperador romano de Occidente?', 3, 3),
+    ('¿En qué año comenzó la Revolución Francesa?', 3, 3),
+    ('¿Qué imperio conquistó a los aztecas?', 3, 3),
+    ('¿Quién fue el líder del movimiento civil por los derechos civiles en los EE. UU. en la década de 1960?', 3, 3),
+    ('¿En qué año cayó el Muro de Berlín?', 3, 3);
+GO
+
+INSERT INTO Respuestas (Texto, IdPregunta, EsCorrecta) 
+VALUES 
+    ('Rómulo Augústulo', 21, 1),
+    ('1789', 22, 1),
+    ('El Imperio Español', 23, 1),
+    ('Martin Luther King Jr.', 24, 1),
+    ('1989', 25, 1);
+GO
+--Ciencia
+--Fácil
+INSERT INTO Preguntas (Texto, IdCategoria, IdDificultad) 
+VALUES 
+    ('¿Cuál es el símbolo químico del oxígeno?', 2, 1),
+    ('¿Cuántos planetas hay en el sistema solar?', 2, 1),
+    ('¿De qué está hecha la luz blanca?', 2, 1),
+    ('¿Qué es la fotosíntesis?', 2, 1),
+    ('¿Qué gas constituye el 21% del aire que respiramos?', 2, 1);
+GO
+
+INSERT INTO Respuestas (Texto, IdPregunta, EsCorrecta) 
+VALUES 
+    ('O', 6, 1),
+    ('8', 7, 1),
+    ('Luz blanca está compuesta por todos los colores del espectro visible', 8, 1),
+    ('La fotosíntesis es el proceso por el cual las plantas producen su alimento', 9, 1),
+    ('Oxígeno', 10, 1);
+GO
+--Medio
+INSERT INTO Preguntas (Texto, IdCategoria, IdDificultad) 
+VALUES 
+    ('¿Qué planeta es conocido como el "planeta rojo"?', 2, 2),
+    ('¿Cuál es el órgano más grande del cuerpo humano?', 2, 2),
+    ('¿Qué científico desarrolló la teoría de la relatividad?', 2, 2),
+    ('¿En qué parte del cuerpo humano se encuentra la glándula tiroides?', 2, 2),
+    ('¿Cuál es el elemento más abundante en el universo?', 2, 2);
+GO
+
+INSERT INTO Respuestas (Texto, IdPregunta, EsCorrecta) 
+VALUES 
+    ('Marte', 11, 1),
+    ('La piel', 12, 1),
+    ('Albert Einstein', 13, 1),
+    ('En el cuello', 14, 1),
+    ('Hidrógeno', 15, 1);
+GO
+--Dificil
+INSERT INTO Preguntas (Texto, IdCategoria, IdDificultad) 
+VALUES 
+    ('¿Cuál es la ley de la termodinámica que establece que la entropía de un sistema aislado tiende a aumentar con el tiempo?', 2, 3),
+    ('¿Quién propuso la teoría de la evolución por selección natural?', 2, 3),
+    ('¿Qué es la energía oscura?', 2, 3),
+    ('¿En qué año se descubrió el ADN?', 2, 3),
+    ('¿Qué partículas subatómicas fueron descubiertas por J.J. Thomson?', 2, 3);
+GO
+
+INSERT INTO Respuestas (Texto, IdPregunta, EsCorrecta) 
+VALUES 
+    ('Segunda ley de la termodinámica', 16, 1),
+    ('Charles Darwin', 17, 1),
+    ('Es una forma de energía invisible que acelera la expansión del universo', 18, 1),
+    ('1953', 19, 1),
+    ('Electrones', 20, 1);
+GO
+--Entretenimiento
+--Facil
+INSERT INTO Preguntas (Texto, IdCategoria, IdDificultad) 
+VALUES 
+    ('¿Quién interpretó a Jack Dawson en la película Titanic?', 1, 1),
+    ('¿Quién es conocido como el "Rey del Pop"?', 1, 1),
+    ('¿En qué película aparece el personaje de "Forrest Gump"?', 1, 1),
+    ('¿Qué banda cantó la canción "Bohemian Rhapsody"?', 1, 1),
+    ('¿Cuál es el nombre del mago protagonista de la saga de libros y películas de "Harry Potter"?', 1, 1);
+GO
+
+INSERT INTO Respuestas (Texto, IdPregunta, EsCorrecta) 
+VALUES 
+    ('Leonardo DiCaprio', 1, 1),
+    ('Michael Jackson', 2, 1),
+    ('Forrest Gump', 3, 1),
+    ('Queen', 4, 1),
+    ('Harry Potter', 5, 1);
+GO
+--Medio
+INSERT INTO Preguntas (Texto, IdCategoria, IdDificultad) 
+VALUES 
+    ('¿Qué banda británica lanzó el álbum "Abbey Road"?', 4, 2),
+    ('¿Quién es el creador de la serie animada "Los Simpson"?', 4, 2),
+    ('¿En qué año se estrenó la primera película de "Star Wars"?', 4, 2),
+    ('¿Qué actor interpretó a Jack Sparrow en "Piratas del Caribe"?', 4, 2),
+    ('¿En qué ciudad se desarrolla la serie "Stranger Things"?', 4, 2);
+GO
+
+INSERT INTO Respuestas (Texto, EsCorrecta, IdPregunta) 
+VALUES 
+    ('The Beatles', 1, 46), ('The Rolling Stones', 0, 46), ('Queen', 0, 46), ('Pink Floyd', 0, 46),
+    ('Matt Groening', 1, 47), ('Seth MacFarlane', 0, 47), ('Trey Parker', 0, 47), ('Mike Judge', 0, 47),
+    ('1977', 1, 48), ('1980', 0, 48), ('1982', 0, 48), ('1990', 0, 48),
+    ('Johnny Depp', 1, 49), ('Orlando Bloom', 0, 49), ('Brad Pitt', 0, 49), ('Keanu Reeves', 0, 49),
+    ('Hawkins', 1, 50), ('Los Angeles', 0, 50), ('Chicago', 0, 50), ('New York', 0, 50);
+GO
+--Dificil
+INSERT INTO Preguntas (Texto, IdCategoria, IdDificultad) 
+VALUES 
+    ('¿Qué director es conocido por sus películas de suspenso como "Psicosis" y "Vértigo"?', 4, 3),
+    ('¿En qué película aparece el personaje "Forrest Gump"?', 4, 3),
+    ('¿Qué actor interpretó al Joker en "The Dark Knight"?', 4, 3),
+    ('¿Quién ganó el Oscar a Mejor Director por la película "La La Land"?', 4, 3),
+    ('¿Cuál es el nombre del personaje principal de la película "Matrix"?', 4, 3);
+GO
+
+INSERT INTO Respuestas (Texto, EsCorrecta, IdPregunta) 
+VALUES 
+    ('Alfred Hitchcock', 1, 51), ('Steven Spielberg', 0, 51), ('Martin Scorsese', 0, 51), ('Quentin Tarantino', 0, 51),
+    ('Forrest Gump', 1, 52), ('El Lobo de Wall Street', 0, 52), ('Inception', 0, 52), ('El Gran Gatsby', 0, 52),
+    ('Heath Ledger', 1, 53), ('Jared Leto', 0, 53), ('Jack Nicholson', 0, 53), ('Joaquin Phoenix', 0, 53),
+    ('Damien Chazelle', 1, 54), ('Christopher Nolan', 0, 54), ('Quentin Tarantino', 0, 54), ('Martin Scorsese', 0, 54),
+    ('Neo', 1, 55), ('Morpheus', 0, 55), ('Trinity', 0, 55), ('Agent Smith', 0, 55);
+GO
+--Deporte
+--Facil
+INSERT INTO Preguntas (Texto, IdCategoria, IdDificultad) 
+VALUES 
+    ('¿Cuántos jugadores hay en un equipo de fútbol?', 5, 1),
+    ('¿En qué deporte se utiliza una raqueta y una pelota?', 5, 1),
+    ('¿Quién es conocido como "El Rey del Fútbol"?', 5, 1),
+    ('¿Cuál es el evento deportivo más visto del mundo?', 5, 1),
+    ('¿Qué deporte se practica en Wimbledon?', 5, 1);
+GO
+
+INSERT INTO Respuestas (Texto, EsCorrecta, IdPregunta) 
+VALUES 
+    ('11', 1, 56), ('10', 0, 56), ('12', 0, 56), ('9', 0, 56),
+    ('Tenis', 1, 57), ('Bádminton', 0, 57), ('Squash', 0, 57), ('Ping Pong', 0, 57),
+    ('Pelé', 1, 58), ('Maradona', 0, 58), ('Messi', 0, 58), ('Cristiano Ronaldo', 0, 58),
+    ('La Copa del Mundo', 1, 59), ('Los Juegos Olímpicos', 0, 59), ('La Fórmula 1', 0, 59), ('El Super Bowl', 0, 59),
+    ('Tenis', 1, 60), ('Golf', 0, 60), ('Críquet', 0, 60), ('Hockey', 0, 60);
+GO
+--Medio
+INSERT INTO Preguntas (Texto, IdCategoria, IdDificultad) 
+VALUES 
+    ('¿En qué país se originó el fútbol?', 5, 2),
+    ('¿Cuántos sets necesita ganar un jugador para ganar un partido de tenis?', 5, 2),
+    ('¿Qué jugador de baloncesto tiene el récord de más puntos en la NBA?', 5, 2),
+    ('¿Cuál es el trofeo del campeonato de la NFL?', 5, 2),
+    ('¿Qué país ganó la primera Copa Mundial de Fútbol en 1930?', 5, 2);
+GO
+
+INSERT INTO Respuestas (Texto, EsCorrecta, IdPregunta) 
+VALUES 
+    ('Inglaterra', 1, 61), ('Brasil', 0, 61), ('España', 0, 61), ('Italia', 0, 61),
+    ('3', 1, 62), ('2', 0, 62), ('4', 0, 62), ('5', 0, 62),
+    ('Kareem Abdul-Jabbar', 1, 63), ('Michael Jordan', 0, 63), ('LeBron James', 0, 63), ('Wilt Chamberlain', 0, 63),
+    ('Vince Lombardi Trophy', 1, 64), ('Stanley Cup', 0, 64), ('FIFA World Cup', 0, 64), ('Heisman Trophy', 0, 64),
+    ('Uruguay', 1, 65), ('Argentina', 0, 65), ('Brasil', 0, 65), ('Italia', 0, 65);
+GO
+--Dificil
+INSERT INTO Preguntas (Texto, IdCategoria, IdDificultad) 
+VALUES 
+    ('¿Quién tiene el récord de más medallas olímpicas?', 5, 3),
+    ('¿En qué año se celebraron los primeros Juegos Olímpicos modernos?', 5, 3),
+    ('¿Cuál es el país con más medallas olímpicas en la historia?', 5, 3),
+    ('¿Qué deporte se juega con una pelota y un bate en forma de diamante?', 5, 3),
+    ('¿Cuál es el país con más victorias en la Copa Davis?', 5, 3);
+GO
+
+INSERT INTO Respuestas (Texto, EsCorrecta, IdPregunta) 
+VALUES 
+    ('Michael Phelps', 1, 66), ('Usain Bolt', 0, 66), ('Carl Lewis', 0, 66), ('Simone Biles', 0, 66),
+    ('1896', 1, 67), ('1900', 0, 67), ('1912', 0, 67), ('1888', 0, 67),
+    ('Estados Unidos', 1, 68), ('China', 0, 68), ('Rusia', 0, 68), ('Alemania', 0, 68),
+    ('Béisbol', 1, 69), ('Críquet', 0, 69), ('Hockey', 0, 69), ('Softbol', 0, 69),
+    ('Estados Unidos', 1, 70), ('España', 0, 70), ('Australia', 0, 70), ('Francia', 0, 70);
+GO
+
+
 

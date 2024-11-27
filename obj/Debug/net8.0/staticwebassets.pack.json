@@ -1,300 +1,312 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\51398893\\Downloads\\TP_ 6_PREGUNTADOS (2)\\TP_ 6_PREGUNTADOS (3)\\TP_ 6_PREGUNTADOS (2)\\TP_ 6_PREGUNTADOS\\TP_ 2_PREGUNTADOS\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\TP_PREGUNTADOS_1.bundle.scp.css",
-      "PackagePath": "staticwebassets\\TP_PREGUNTADOS_1.bundle.scp.css"
+      "Id": "C:\\Users\\48178331\\Downloads\\TP_PREGUNTADORT_REENTREGA_WICNUDEL_TAGLIORETTI_MARASCH\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\TP_PREGUNTADORT_REENTREGA_WICNUDEL_TAGLIORETTI_MARASCH.bundle.scp.css",
+      "PackagePath": "staticwebassets\\TP_PREGUNTADORT_REENTREGA_WICNUDEL_TAGLIORETTI_MARASCH.bundle.scp.css"
     },
     {
-      "Id": "C:\\Users\\51398893\\Downloads\\TP_ 6_PREGUNTADOS (2)\\TP_ 6_PREGUNTADOS (3)\\TP_ 6_PREGUNTADOS (2)\\TP_ 6_PREGUNTADOS\\TP_ 2_PREGUNTADOS\\wwwroot\\css\\site.css",
+      "Id": "C:\\Users\\48178331\\Downloads\\TP_PREGUNTADORT_REENTREGA_WICNUDEL_TAGLIORETTI_MARASCH\\wwwroot\\css\\ruleta.css",
+      "PackagePath": "staticwebassets\\css\\ruleta.css"
+    },
+    {
+      "Id": "C:\\Users\\48178331\\Downloads\\TP_PREGUNTADORT_REENTREGA_WICNUDEL_TAGLIORETTI_MARASCH\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
-      "Id": "C:\\Users\\51398893\\Downloads\\TP_ 6_PREGUNTADOS (2)\\TP_ 6_PREGUNTADOS (3)\\TP_ 6_PREGUNTADOS (2)\\TP_ 6_PREGUNTADOS\\TP_ 2_PREGUNTADOS\\wwwroot\\favicon.ico",
+      "Id": "C:\\Users\\48178331\\Downloads\\TP_PREGUNTADORT_REENTREGA_WICNUDEL_TAGLIORETTI_MARASCH\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "C:\\Users\\51398893\\Downloads\\TP_ 6_PREGUNTADOS (2)\\TP_ 6_PREGUNTADOS (3)\\TP_ 6_PREGUNTADOS (2)\\TP_ 6_PREGUNTADOS\\TP_ 2_PREGUNTADOS\\wwwroot\\imagenes\\FondoIndex.png",
+      "Id": "C:\\Users\\48178331\\Downloads\\TP_PREGUNTADORT_REENTREGA_WICNUDEL_TAGLIORETTI_MARASCH\\wwwroot\\imagenes\\FondoIndex.png",
       "PackagePath": "staticwebassets\\imagenes\\FondoIndex.png"
     },
     {
-      "Id": "C:\\Users\\51398893\\Downloads\\TP_ 6_PREGUNTADOS (2)\\TP_ 6_PREGUNTADOS (3)\\TP_ 6_PREGUNTADOS (2)\\TP_ 6_PREGUNTADOS\\TP_ 2_PREGUNTADOS\\wwwroot\\imagenes\\Foto_creditos.png",
+      "Id": "C:\\Users\\48178331\\Downloads\\TP_PREGUNTADORT_REENTREGA_WICNUDEL_TAGLIORETTI_MARASCH\\wwwroot\\imagenes\\Foto_creditos.png",
       "PackagePath": "staticwebassets\\imagenes\\Foto_creditos.png"
     },
     {
-      "Id": "C:\\Users\\51398893\\Downloads\\TP_ 6_PREGUNTADOS (2)\\TP_ 6_PREGUNTADOS (3)\\TP_ 6_PREGUNTADOS (2)\\TP_ 6_PREGUNTADOS\\TP_ 2_PREGUNTADOS\\wwwroot\\imagenes\\Logo.png",
+      "Id": "C:\\Users\\48178331\\Downloads\\TP_PREGUNTADORT_REENTREGA_WICNUDEL_TAGLIORETTI_MARASCH\\wwwroot\\imagenes\\Logo.png",
       "PackagePath": "staticwebassets\\imagenes\\Logo.png"
     },
     {
-      "Id": "C:\\Users\\51398893\\Downloads\\TP_ 6_PREGUNTADOS (2)\\TP_ 6_PREGUNTADOS (3)\\TP_ 6_PREGUNTADOS (2)\\TP_ 6_PREGUNTADOS\\TP_ 2_PREGUNTADOS\\wwwroot\\imagenes\\Preguntados.png",
+      "Id": "C:\\Users\\48178331\\Downloads\\TP_PREGUNTADORT_REENTREGA_WICNUDEL_TAGLIORETTI_MARASCH\\wwwroot\\imagenes\\Preguntados.png",
       "PackagePath": "staticwebassets\\imagenes\\Preguntados.png"
     },
     {
-      "Id": "C:\\Users\\51398893\\Downloads\\TP_ 6_PREGUNTADOS (2)\\TP_ 6_PREGUNTADOS (3)\\TP_ 6_PREGUNTADOS (2)\\TP_ 6_PREGUNTADOS\\TP_ 2_PREGUNTADOS\\wwwroot\\imagenes\\ciencia.png",
+      "Id": "C:\\Users\\48178331\\Downloads\\TP_PREGUNTADORT_REENTREGA_WICNUDEL_TAGLIORETTI_MARASCH\\wwwroot\\imagenes\\ciencia.png",
       "PackagePath": "staticwebassets\\imagenes\\ciencia.png"
     },
     {
-      "Id": "C:\\Users\\51398893\\Downloads\\TP_ 6_PREGUNTADOS (2)\\TP_ 6_PREGUNTADOS (3)\\TP_ 6_PREGUNTADOS (2)\\TP_ 6_PREGUNTADOS\\TP_ 2_PREGUNTADOS\\wwwroot\\imagenes\\deporte.png",
+      "Id": "C:\\Users\\48178331\\Downloads\\TP_PREGUNTADORT_REENTREGA_WICNUDEL_TAGLIORETTI_MARASCH\\wwwroot\\imagenes\\deporte.png",
       "PackagePath": "staticwebassets\\imagenes\\deporte.png"
     },
     {
-      "Id": "C:\\Users\\51398893\\Downloads\\TP_ 6_PREGUNTADOS (2)\\TP_ 6_PREGUNTADOS (3)\\TP_ 6_PREGUNTADOS (2)\\TP_ 6_PREGUNTADOS\\TP_ 2_PREGUNTADOS\\wwwroot\\imagenes\\entretenimiento.png",
+      "Id": "C:\\Users\\48178331\\Downloads\\TP_PREGUNTADORT_REENTREGA_WICNUDEL_TAGLIORETTI_MARASCH\\wwwroot\\imagenes\\entretenimiento.png",
       "PackagePath": "staticwebassets\\imagenes\\entretenimiento.png"
     },
     {
-      "Id": "C:\\Users\\51398893\\Downloads\\TP_ 6_PREGUNTADOS (2)\\TP_ 6_PREGUNTADOS (3)\\TP_ 6_PREGUNTADOS (2)\\TP_ 6_PREGUNTADOS\\TP_ 2_PREGUNTADOS\\wwwroot\\imagenes\\geografia.png",
+      "Id": "C:\\Users\\48178331\\Downloads\\TP_PREGUNTADORT_REENTREGA_WICNUDEL_TAGLIORETTI_MARASCH\\wwwroot\\imagenes\\geografia.png",
       "PackagePath": "staticwebassets\\imagenes\\geografia.png"
     },
     {
-      "Id": "C:\\Users\\51398893\\Downloads\\TP_ 6_PREGUNTADOS (2)\\TP_ 6_PREGUNTADOS (3)\\TP_ 6_PREGUNTADOS (2)\\TP_ 6_PREGUNTADOS\\TP_ 2_PREGUNTADOS\\wwwroot\\imagenes\\historia.png",
+      "Id": "C:\\Users\\48178331\\Downloads\\TP_PREGUNTADORT_REENTREGA_WICNUDEL_TAGLIORETTI_MARASCH\\wwwroot\\imagenes\\historia.png",
       "PackagePath": "staticwebassets\\imagenes\\historia.png"
     },
     {
-      "Id": "C:\\Users\\51398893\\Downloads\\TP_ 6_PREGUNTADOS (2)\\TP_ 6_PREGUNTADOS (3)\\TP_ 6_PREGUNTADOS (2)\\TP_ 6_PREGUNTADOS\\TP_ 2_PREGUNTADOS\\wwwroot\\js\\site.js",
+      "Id": "C:\\Users\\48178331\\Downloads\\TP_PREGUNTADORT_REENTREGA_WICNUDEL_TAGLIORETTI_MARASCH\\wwwroot\\js\\Timer.js",
+      "PackagePath": "staticwebassets\\js\\Timer.js"
+    },
+    {
+      "Id": "C:\\Users\\48178331\\Downloads\\TP_PREGUNTADORT_REENTREGA_WICNUDEL_TAGLIORETTI_MARASCH\\wwwroot\\js\\ruleta.js",
+      "PackagePath": "staticwebassets\\js\\ruleta.js"
+    },
+    {
+      "Id": "C:\\Users\\48178331\\Downloads\\TP_PREGUNTADORT_REENTREGA_WICNUDEL_TAGLIORETTI_MARASCH\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
-      "Id": "C:\\Users\\51398893\\Downloads\\TP_ 6_PREGUNTADOS (2)\\TP_ 6_PREGUNTADOS (3)\\TP_ 6_PREGUNTADOS (2)\\TP_ 6_PREGUNTADOS\\TP_ 2_PREGUNTADOS\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Id": "C:\\Users\\48178331\\Downloads\\TP_PREGUNTADORT_REENTREGA_WICNUDEL_TAGLIORETTI_MARASCH\\wwwroot\\lib\\bootstrap\\LICENSE",
       "PackagePath": "staticwebassets\\lib\\bootstrap"
     },
     {
-      "Id": "C:\\Users\\51398893\\Downloads\\TP_ 6_PREGUNTADOS (2)\\TP_ 6_PREGUNTADOS (3)\\TP_ 6_PREGUNTADOS (2)\\TP_ 6_PREGUNTADOS\\TP_ 2_PREGUNTADOS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Id": "C:\\Users\\48178331\\Downloads\\TP_PREGUNTADORT_REENTREGA_WICNUDEL_TAGLIORETTI_MARASCH\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Id": "C:\\Users\\51398893\\Downloads\\TP_ 6_PREGUNTADOS (2)\\TP_ 6_PREGUNTADOS (3)\\TP_ 6_PREGUNTADOS (2)\\TP_ 6_PREGUNTADOS\\TP_ 2_PREGUNTADOS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Id": "C:\\Users\\48178331\\Downloads\\TP_PREGUNTADORT_REENTREGA_WICNUDEL_TAGLIORETTI_MARASCH\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Id": "C:\\Users\\51398893\\Downloads\\TP_ 6_PREGUNTADOS (2)\\TP_ 6_PREGUNTADOS (3)\\TP_ 6_PREGUNTADOS (2)\\TP_ 6_PREGUNTADOS\\TP_ 2_PREGUNTADOS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Id": "C:\\Users\\48178331\\Downloads\\TP_PREGUNTADORT_REENTREGA_WICNUDEL_TAGLIORETTI_MARASCH\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Id": "C:\\Users\\51398893\\Downloads\\TP_ 6_PREGUNTADOS (2)\\TP_ 6_PREGUNTADOS (3)\\TP_ 6_PREGUNTADOS (2)\\TP_ 6_PREGUNTADOS\\TP_ 2_PREGUNTADOS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Id": "C:\\Users\\48178331\\Downloads\\TP_PREGUNTADORT_REENTREGA_WICNUDEL_TAGLIORETTI_MARASCH\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Id": "C:\\Users\\51398893\\Downloads\\TP_ 6_PREGUNTADOS (2)\\TP_ 6_PREGUNTADOS (3)\\TP_ 6_PREGUNTADOS (2)\\TP_ 6_PREGUNTADOS\\TP_ 2_PREGUNTADOS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Id": "C:\\Users\\48178331\\Downloads\\TP_PREGUNTADORT_REENTREGA_WICNUDEL_TAGLIORETTI_MARASCH\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Id": "C:\\Users\\51398893\\Downloads\\TP_ 6_PREGUNTADOS (2)\\TP_ 6_PREGUNTADOS (3)\\TP_ 6_PREGUNTADOS (2)\\TP_ 6_PREGUNTADOS\\TP_ 2_PREGUNTADOS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Id": "C:\\Users\\48178331\\Downloads\\TP_PREGUNTADORT_REENTREGA_WICNUDEL_TAGLIORETTI_MARASCH\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\51398893\\Downloads\\TP_ 6_PREGUNTADOS (2)\\TP_ 6_PREGUNTADOS (3)\\TP_ 6_PREGUNTADOS (2)\\TP_ 6_PREGUNTADOS\\TP_ 2_PREGUNTADOS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Id": "C:\\Users\\48178331\\Downloads\\TP_PREGUNTADORT_REENTREGA_WICNUDEL_TAGLIORETTI_MARASCH\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\51398893\\Downloads\\TP_ 6_PREGUNTADOS (2)\\TP_ 6_PREGUNTADOS (3)\\TP_ 6_PREGUNTADOS (2)\\TP_ 6_PREGUNTADOS\\TP_ 2_PREGUNTADOS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Id": "C:\\Users\\48178331\\Downloads\\TP_PREGUNTADORT_REENTREGA_WICNUDEL_TAGLIORETTI_MARASCH\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\51398893\\Downloads\\TP_ 6_PREGUNTADOS (2)\\TP_ 6_PREGUNTADOS (3)\\TP_ 6_PREGUNTADOS (2)\\TP_ 6_PREGUNTADOS\\TP_ 2_PREGUNTADOS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Id": "C:\\Users\\48178331\\Downloads\\TP_PREGUNTADORT_REENTREGA_WICNUDEL_TAGLIORETTI_MARASCH\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Id": "C:\\Users\\51398893\\Downloads\\TP_ 6_PREGUNTADOS (2)\\TP_ 6_PREGUNTADOS (3)\\TP_ 6_PREGUNTADOS (2)\\TP_ 6_PREGUNTADOS\\TP_ 2_PREGUNTADOS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Id": "C:\\Users\\48178331\\Downloads\\TP_PREGUNTADORT_REENTREGA_WICNUDEL_TAGLIORETTI_MARASCH\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Id": "C:\\Users\\51398893\\Downloads\\TP_ 6_PREGUNTADOS (2)\\TP_ 6_PREGUNTADOS (3)\\TP_ 6_PREGUNTADOS (2)\\TP_ 6_PREGUNTADOS\\TP_ 2_PREGUNTADOS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Id": "C:\\Users\\48178331\\Downloads\\TP_PREGUNTADORT_REENTREGA_WICNUDEL_TAGLIORETTI_MARASCH\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Id": "C:\\Users\\51398893\\Downloads\\TP_ 6_PREGUNTADOS (2)\\TP_ 6_PREGUNTADOS (3)\\TP_ 6_PREGUNTADOS (2)\\TP_ 6_PREGUNTADOS\\TP_ 2_PREGUNTADOS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Id": "C:\\Users\\48178331\\Downloads\\TP_PREGUNTADORT_REENTREGA_WICNUDEL_TAGLIORETTI_MARASCH\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Id": "C:\\Users\\51398893\\Downloads\\TP_ 6_PREGUNTADOS (2)\\TP_ 6_PREGUNTADOS (3)\\TP_ 6_PREGUNTADOS (2)\\TP_ 6_PREGUNTADOS\\TP_ 2_PREGUNTADOS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Id": "C:\\Users\\48178331\\Downloads\\TP_PREGUNTADORT_REENTREGA_WICNUDEL_TAGLIORETTI_MARASCH\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Id": "C:\\Users\\51398893\\Downloads\\TP_ 6_PREGUNTADOS (2)\\TP_ 6_PREGUNTADOS (3)\\TP_ 6_PREGUNTADOS (2)\\TP_ 6_PREGUNTADOS\\TP_ 2_PREGUNTADOS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Id": "C:\\Users\\48178331\\Downloads\\TP_PREGUNTADORT_REENTREGA_WICNUDEL_TAGLIORETTI_MARASCH\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\51398893\\Downloads\\TP_ 6_PREGUNTADOS (2)\\TP_ 6_PREGUNTADOS (3)\\TP_ 6_PREGUNTADOS (2)\\TP_ 6_PREGUNTADOS\\TP_ 2_PREGUNTADOS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Id": "C:\\Users\\48178331\\Downloads\\TP_PREGUNTADORT_REENTREGA_WICNUDEL_TAGLIORETTI_MARASCH\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\51398893\\Downloads\\TP_ 6_PREGUNTADOS (2)\\TP_ 6_PREGUNTADOS (3)\\TP_ 6_PREGUNTADOS (2)\\TP_ 6_PREGUNTADOS\\TP_ 2_PREGUNTADOS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Id": "C:\\Users\\48178331\\Downloads\\TP_PREGUNTADORT_REENTREGA_WICNUDEL_TAGLIORETTI_MARASCH\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\51398893\\Downloads\\TP_ 6_PREGUNTADOS (2)\\TP_ 6_PREGUNTADOS (3)\\TP_ 6_PREGUNTADOS (2)\\TP_ 6_PREGUNTADOS\\TP_ 2_PREGUNTADOS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Id": "C:\\Users\\48178331\\Downloads\\TP_PREGUNTADORT_REENTREGA_WICNUDEL_TAGLIORETTI_MARASCH\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Id": "C:\\Users\\51398893\\Downloads\\TP_ 6_PREGUNTADOS (2)\\TP_ 6_PREGUNTADOS (3)\\TP_ 6_PREGUNTADOS (2)\\TP_ 6_PREGUNTADOS\\TP_ 2_PREGUNTADOS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Id": "C:\\Users\\48178331\\Downloads\\TP_PREGUNTADORT_REENTREGA_WICNUDEL_TAGLIORETTI_MARASCH\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Id": "C:\\Users\\51398893\\Downloads\\TP_ 6_PREGUNTADOS (2)\\TP_ 6_PREGUNTADOS (3)\\TP_ 6_PREGUNTADOS (2)\\TP_ 6_PREGUNTADOS\\TP_ 2_PREGUNTADOS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Id": "C:\\Users\\48178331\\Downloads\\TP_PREGUNTADORT_REENTREGA_WICNUDEL_TAGLIORETTI_MARASCH\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Id": "C:\\Users\\51398893\\Downloads\\TP_ 6_PREGUNTADOS (2)\\TP_ 6_PREGUNTADOS (3)\\TP_ 6_PREGUNTADOS (2)\\TP_ 6_PREGUNTADOS\\TP_ 2_PREGUNTADOS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Id": "C:\\Users\\48178331\\Downloads\\TP_PREGUNTADORT_REENTREGA_WICNUDEL_TAGLIORETTI_MARASCH\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Id": "C:\\Users\\51398893\\Downloads\\TP_ 6_PREGUNTADOS (2)\\TP_ 6_PREGUNTADOS (3)\\TP_ 6_PREGUNTADOS (2)\\TP_ 6_PREGUNTADOS\\TP_ 2_PREGUNTADOS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Id": "C:\\Users\\48178331\\Downloads\\TP_PREGUNTADORT_REENTREGA_WICNUDEL_TAGLIORETTI_MARASCH\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Id": "C:\\Users\\51398893\\Downloads\\TP_ 6_PREGUNTADOS (2)\\TP_ 6_PREGUNTADOS (3)\\TP_ 6_PREGUNTADOS (2)\\TP_ 6_PREGUNTADOS\\TP_ 2_PREGUNTADOS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Id": "C:\\Users\\48178331\\Downloads\\TP_PREGUNTADORT_REENTREGA_WICNUDEL_TAGLIORETTI_MARASCH\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\51398893\\Downloads\\TP_ 6_PREGUNTADOS (2)\\TP_ 6_PREGUNTADOS (3)\\TP_ 6_PREGUNTADOS (2)\\TP_ 6_PREGUNTADOS\\TP_ 2_PREGUNTADOS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Id": "C:\\Users\\48178331\\Downloads\\TP_PREGUNTADORT_REENTREGA_WICNUDEL_TAGLIORETTI_MARASCH\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\51398893\\Downloads\\TP_ 6_PREGUNTADOS (2)\\TP_ 6_PREGUNTADOS (3)\\TP_ 6_PREGUNTADOS (2)\\TP_ 6_PREGUNTADOS\\TP_ 2_PREGUNTADOS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Id": "C:\\Users\\48178331\\Downloads\\TP_PREGUNTADORT_REENTREGA_WICNUDEL_TAGLIORETTI_MARASCH\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\51398893\\Downloads\\TP_ 6_PREGUNTADOS (2)\\TP_ 6_PREGUNTADOS (3)\\TP_ 6_PREGUNTADOS (2)\\TP_ 6_PREGUNTADOS\\TP_ 2_PREGUNTADOS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Id": "C:\\Users\\48178331\\Downloads\\TP_PREGUNTADORT_REENTREGA_WICNUDEL_TAGLIORETTI_MARASCH\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Id": "C:\\Users\\51398893\\Downloads\\TP_ 6_PREGUNTADOS (2)\\TP_ 6_PREGUNTADOS (3)\\TP_ 6_PREGUNTADOS (2)\\TP_ 6_PREGUNTADOS\\TP_ 2_PREGUNTADOS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Id": "C:\\Users\\48178331\\Downloads\\TP_PREGUNTADORT_REENTREGA_WICNUDEL_TAGLIORETTI_MARASCH\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Id": "C:\\Users\\51398893\\Downloads\\TP_ 6_PREGUNTADOS (2)\\TP_ 6_PREGUNTADOS (3)\\TP_ 6_PREGUNTADOS (2)\\TP_ 6_PREGUNTADOS\\TP_ 2_PREGUNTADOS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Id": "C:\\Users\\48178331\\Downloads\\TP_PREGUNTADORT_REENTREGA_WICNUDEL_TAGLIORETTI_MARASCH\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Id": "C:\\Users\\51398893\\Downloads\\TP_ 6_PREGUNTADOS (2)\\TP_ 6_PREGUNTADOS (3)\\TP_ 6_PREGUNTADOS (2)\\TP_ 6_PREGUNTADOS\\TP_ 2_PREGUNTADOS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Id": "C:\\Users\\48178331\\Downloads\\TP_PREGUNTADORT_REENTREGA_WICNUDEL_TAGLIORETTI_MARASCH\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Id": "C:\\Users\\51398893\\Downloads\\TP_ 6_PREGUNTADOS (2)\\TP_ 6_PREGUNTADOS (3)\\TP_ 6_PREGUNTADOS (2)\\TP_ 6_PREGUNTADOS\\TP_ 2_PREGUNTADOS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Id": "C:\\Users\\48178331\\Downloads\\TP_PREGUNTADORT_REENTREGA_WICNUDEL_TAGLIORETTI_MARASCH\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Id": "C:\\Users\\51398893\\Downloads\\TP_ 6_PREGUNTADOS (2)\\TP_ 6_PREGUNTADOS (3)\\TP_ 6_PREGUNTADOS (2)\\TP_ 6_PREGUNTADOS\\TP_ 2_PREGUNTADOS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Id": "C:\\Users\\48178331\\Downloads\\TP_PREGUNTADORT_REENTREGA_WICNUDEL_TAGLIORETTI_MARASCH\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\51398893\\Downloads\\TP_ 6_PREGUNTADOS (2)\\TP_ 6_PREGUNTADOS (3)\\TP_ 6_PREGUNTADOS (2)\\TP_ 6_PREGUNTADOS\\TP_ 2_PREGUNTADOS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Id": "C:\\Users\\48178331\\Downloads\\TP_PREGUNTADORT_REENTREGA_WICNUDEL_TAGLIORETTI_MARASCH\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\51398893\\Downloads\\TP_ 6_PREGUNTADOS (2)\\TP_ 6_PREGUNTADOS (3)\\TP_ 6_PREGUNTADOS (2)\\TP_ 6_PREGUNTADOS\\TP_ 2_PREGUNTADOS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Id": "C:\\Users\\48178331\\Downloads\\TP_PREGUNTADORT_REENTREGA_WICNUDEL_TAGLIORETTI_MARASCH\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\51398893\\Downloads\\TP_ 6_PREGUNTADOS (2)\\TP_ 6_PREGUNTADOS (3)\\TP_ 6_PREGUNTADOS (2)\\TP_ 6_PREGUNTADOS\\TP_ 2_PREGUNTADOS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Id": "C:\\Users\\48178331\\Downloads\\TP_PREGUNTADORT_REENTREGA_WICNUDEL_TAGLIORETTI_MARASCH\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Id": "C:\\Users\\51398893\\Downloads\\TP_ 6_PREGUNTADOS (2)\\TP_ 6_PREGUNTADOS (3)\\TP_ 6_PREGUNTADOS (2)\\TP_ 6_PREGUNTADOS\\TP_ 2_PREGUNTADOS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Id": "C:\\Users\\48178331\\Downloads\\TP_PREGUNTADORT_REENTREGA_WICNUDEL_TAGLIORETTI_MARASCH\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Id": "C:\\Users\\51398893\\Downloads\\TP_ 6_PREGUNTADOS (2)\\TP_ 6_PREGUNTADOS (3)\\TP_ 6_PREGUNTADOS (2)\\TP_ 6_PREGUNTADOS\\TP_ 2_PREGUNTADOS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Id": "C:\\Users\\48178331\\Downloads\\TP_PREGUNTADORT_REENTREGA_WICNUDEL_TAGLIORETTI_MARASCH\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Id": "C:\\Users\\51398893\\Downloads\\TP_ 6_PREGUNTADOS (2)\\TP_ 6_PREGUNTADOS (3)\\TP_ 6_PREGUNTADOS (2)\\TP_ 6_PREGUNTADOS\\TP_ 2_PREGUNTADOS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Id": "C:\\Users\\48178331\\Downloads\\TP_PREGUNTADORT_REENTREGA_WICNUDEL_TAGLIORETTI_MARASCH\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Id": "C:\\Users\\51398893\\Downloads\\TP_ 6_PREGUNTADOS (2)\\TP_ 6_PREGUNTADOS (3)\\TP_ 6_PREGUNTADOS (2)\\TP_ 6_PREGUNTADOS\\TP_ 2_PREGUNTADOS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Id": "C:\\Users\\48178331\\Downloads\\TP_PREGUNTADORT_REENTREGA_WICNUDEL_TAGLIORETTI_MARASCH\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Id": "C:\\Users\\51398893\\Downloads\\TP_ 6_PREGUNTADOS (2)\\TP_ 6_PREGUNTADOS (3)\\TP_ 6_PREGUNTADOS (2)\\TP_ 6_PREGUNTADOS\\TP_ 2_PREGUNTADOS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Id": "C:\\Users\\48178331\\Downloads\\TP_PREGUNTADORT_REENTREGA_WICNUDEL_TAGLIORETTI_MARASCH\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Id": "C:\\Users\\51398893\\Downloads\\TP_ 6_PREGUNTADOS (2)\\TP_ 6_PREGUNTADOS (3)\\TP_ 6_PREGUNTADOS (2)\\TP_ 6_PREGUNTADOS\\TP_ 2_PREGUNTADOS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Id": "C:\\Users\\48178331\\Downloads\\TP_PREGUNTADORT_REENTREGA_WICNUDEL_TAGLIORETTI_MARASCH\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Id": "C:\\Users\\51398893\\Downloads\\TP_ 6_PREGUNTADOS (2)\\TP_ 6_PREGUNTADOS (3)\\TP_ 6_PREGUNTADOS (2)\\TP_ 6_PREGUNTADOS\\TP_ 2_PREGUNTADOS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Id": "C:\\Users\\48178331\\Downloads\\TP_PREGUNTADORT_REENTREGA_WICNUDEL_TAGLIORETTI_MARASCH\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Id": "C:\\Users\\51398893\\Downloads\\TP_ 6_PREGUNTADOS (2)\\TP_ 6_PREGUNTADOS (3)\\TP_ 6_PREGUNTADOS (2)\\TP_ 6_PREGUNTADOS\\TP_ 2_PREGUNTADOS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Id": "C:\\Users\\48178331\\Downloads\\TP_PREGUNTADORT_REENTREGA_WICNUDEL_TAGLIORETTI_MARASCH\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Id": "C:\\Users\\51398893\\Downloads\\TP_ 6_PREGUNTADOS (2)\\TP_ 6_PREGUNTADOS (3)\\TP_ 6_PREGUNTADOS (2)\\TP_ 6_PREGUNTADOS\\TP_ 2_PREGUNTADOS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Id": "C:\\Users\\48178331\\Downloads\\TP_PREGUNTADORT_REENTREGA_WICNUDEL_TAGLIORETTI_MARASCH\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Id": "C:\\Users\\51398893\\Downloads\\TP_ 6_PREGUNTADOS (2)\\TP_ 6_PREGUNTADOS (3)\\TP_ 6_PREGUNTADOS (2)\\TP_ 6_PREGUNTADOS\\TP_ 2_PREGUNTADOS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Id": "C:\\Users\\48178331\\Downloads\\TP_PREGUNTADORT_REENTREGA_WICNUDEL_TAGLIORETTI_MARASCH\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Id": "C:\\Users\\51398893\\Downloads\\TP_ 6_PREGUNTADOS (2)\\TP_ 6_PREGUNTADOS (3)\\TP_ 6_PREGUNTADOS (2)\\TP_ 6_PREGUNTADOS\\TP_ 2_PREGUNTADOS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Id": "C:\\Users\\48178331\\Downloads\\TP_PREGUNTADORT_REENTREGA_WICNUDEL_TAGLIORETTI_MARASCH\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Id": "C:\\Users\\51398893\\Downloads\\TP_ 6_PREGUNTADOS (2)\\TP_ 6_PREGUNTADOS (3)\\TP_ 6_PREGUNTADOS (2)\\TP_ 6_PREGUNTADOS\\TP_ 2_PREGUNTADOS\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Id": "C:\\Users\\48178331\\Downloads\\TP_PREGUNTADORT_REENTREGA_WICNUDEL_TAGLIORETTI_MARASCH\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Id": "C:\\Users\\51398893\\Downloads\\TP_ 6_PREGUNTADOS (2)\\TP_ 6_PREGUNTADOS (3)\\TP_ 6_PREGUNTADOS (2)\\TP_ 6_PREGUNTADOS\\TP_ 2_PREGUNTADOS\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Id": "C:\\Users\\48178331\\Downloads\\TP_PREGUNTADORT_REENTREGA_WICNUDEL_TAGLIORETTI_MARASCH\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Id": "C:\\Users\\51398893\\Downloads\\TP_ 6_PREGUNTADOS (2)\\TP_ 6_PREGUNTADOS (3)\\TP_ 6_PREGUNTADOS (2)\\TP_ 6_PREGUNTADOS\\TP_ 2_PREGUNTADOS\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Id": "C:\\Users\\48178331\\Downloads\\TP_PREGUNTADORT_REENTREGA_WICNUDEL_TAGLIORETTI_MARASCH\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Id": "C:\\Users\\51398893\\Downloads\\TP_ 6_PREGUNTADOS (2)\\TP_ 6_PREGUNTADOS (3)\\TP_ 6_PREGUNTADOS (2)\\TP_ 6_PREGUNTADOS\\TP_ 2_PREGUNTADOS\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Id": "C:\\Users\\48178331\\Downloads\\TP_PREGUNTADORT_REENTREGA_WICNUDEL_TAGLIORETTI_MARASCH\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Id": "C:\\Users\\51398893\\Downloads\\TP_ 6_PREGUNTADOS (2)\\TP_ 6_PREGUNTADOS (3)\\TP_ 6_PREGUNTADOS (2)\\TP_ 6_PREGUNTADOS\\TP_ 2_PREGUNTADOS\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Id": "C:\\Users\\48178331\\Downloads\\TP_PREGUNTADORT_REENTREGA_WICNUDEL_TAGLIORETTI_MARASCH\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Id": "C:\\Users\\51398893\\Downloads\\TP_ 6_PREGUNTADOS (2)\\TP_ 6_PREGUNTADOS (3)\\TP_ 6_PREGUNTADOS (2)\\TP_ 6_PREGUNTADOS\\TP_ 2_PREGUNTADOS\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Id": "C:\\Users\\48178331\\Downloads\\TP_PREGUNTADORT_REENTREGA_WICNUDEL_TAGLIORETTI_MARASCH\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Id": "C:\\Users\\51398893\\Downloads\\TP_ 6_PREGUNTADOS (2)\\TP_ 6_PREGUNTADOS (3)\\TP_ 6_PREGUNTADOS (2)\\TP_ 6_PREGUNTADOS\\TP_ 2_PREGUNTADOS\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Id": "C:\\Users\\48178331\\Downloads\\TP_PREGUNTADORT_REENTREGA_WICNUDEL_TAGLIORETTI_MARASCH\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Id": "C:\\Users\\51398893\\Downloads\\TP_ 6_PREGUNTADOS (2)\\TP_ 6_PREGUNTADOS (3)\\TP_ 6_PREGUNTADOS (2)\\TP_ 6_PREGUNTADOS\\TP_ 2_PREGUNTADOS\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Id": "C:\\Users\\48178331\\Downloads\\TP_PREGUNTADORT_REENTREGA_WICNUDEL_TAGLIORETTI_MARASCH\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Id": "C:\\Users\\51398893\\Downloads\\TP_ 6_PREGUNTADOS (2)\\TP_ 6_PREGUNTADOS (3)\\TP_ 6_PREGUNTADOS (2)\\TP_ 6_PREGUNTADOS\\TP_ 2_PREGUNTADOS\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Id": "C:\\Users\\48178331\\Downloads\\TP_PREGUNTADORT_REENTREGA_WICNUDEL_TAGLIORETTI_MARASCH\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Id": "C:\\Users\\51398893\\Downloads\\TP_ 6_PREGUNTADOS (2)\\TP_ 6_PREGUNTADOS (3)\\TP_ 6_PREGUNTADOS (2)\\TP_ 6_PREGUNTADOS\\TP_ 2_PREGUNTADOS\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Id": "C:\\Users\\48178331\\Downloads\\TP_PREGUNTADORT_REENTREGA_WICNUDEL_TAGLIORETTI_MARASCH\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Id": "C:\\Users\\51398893\\Downloads\\TP_ 6_PREGUNTADOS (2)\\TP_ 6_PREGUNTADOS (3)\\TP_ 6_PREGUNTADOS (2)\\TP_ 6_PREGUNTADOS\\TP_ 2_PREGUNTADOS\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Id": "C:\\Users\\48178331\\Downloads\\TP_PREGUNTADORT_REENTREGA_WICNUDEL_TAGLIORETTI_MARASCH\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Id": "C:\\Users\\51398893\\Downloads\\TP_ 6_PREGUNTADOS (2)\\TP_ 6_PREGUNTADOS (3)\\TP_ 6_PREGUNTADOS (2)\\TP_ 6_PREGUNTADOS\\TP_ 2_PREGUNTADOS\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Id": "C:\\Users\\48178331\\Downloads\\TP_PREGUNTADORT_REENTREGA_WICNUDEL_TAGLIORETTI_MARASCH\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.TP_PREGUNTADOS_1.Microsoft.AspNetCore.StaticWebAssets.props",
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.TP_PREGUNTADORT_REENTREGA_WICNUDEL_TAGLIORETTI_MARASCH.Microsoft.AspNetCore.StaticWebAssets.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
     },
     {
-      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.TP_PREGUNTADOS_1.props",
-      "PackagePath": "build\\TP_PREGUNTADOS_1.props"
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.TP_PREGUNTADORT_REENTREGA_WICNUDEL_TAGLIORETTI_MARASCH.props",
+      "PackagePath": "build\\TP_PREGUNTADORT_REENTREGA_WICNUDEL_TAGLIORETTI_MARASCH.props"
     },
     {
-      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.TP_PREGUNTADOS_1.props",
-      "PackagePath": "buildMultiTargeting\\TP_PREGUNTADOS_1.props"
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.TP_PREGUNTADORT_REENTREGA_WICNUDEL_TAGLIORETTI_MARASCH.props",
+      "PackagePath": "buildMultiTargeting\\TP_PREGUNTADORT_REENTREGA_WICNUDEL_TAGLIORETTI_MARASCH.props"
     },
     {
-      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.TP_PREGUNTADOS_1.props",
-      "PackagePath": "buildTransitive\\TP_PREGUNTADOS_1.props"
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.TP_PREGUNTADORT_REENTREGA_WICNUDEL_TAGLIORETTI_MARASCH.props",
+      "PackagePath": "buildTransitive\\TP_PREGUNTADORT_REENTREGA_WICNUDEL_TAGLIORETTI_MARASCH.props"
     }
   ],
   "ElementsToRemove": []

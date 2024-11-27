@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\TP_PREGUNTADORT_REENTREGA_WICNUDEL_TAGLIORETTI_MARASCH.props" />
+</Project>

@@ -1,95 +1,73 @@
-using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
 
 public class HomeController : Controller
 {
-    private readonly ILogger<HomeController> _logger;
-
-    public HomeController(ILogger<HomeController> logger)
-    {
-        _logger = logger;
-    }
-
     public IActionResult Index()
     {
         return View();
     }
 
-    public IActionResult Fin(){
+    public IActionResult Creditos()
+    {
         return View();
     }
 
-    public IActionResult CrearPregunta(){
-        ViewBag.Dificultades = Juego.ObtenerDificultades();
-        ViewBag.Categorias = Juego.ObtenerCategorias();
-
+    public IActionResult Fin()
+    {
         return View();
     }
 
     public IActionResult ConfigurarJuego()
     {
-        Juego.InicializarJuego();
         ViewBag.Dificultades = Juego.ObtenerDificultades();
         ViewBag.Categorias = Juego.ObtenerCategorias();
-
         return View();
     }
 
-    public IActionResult Jugar(){
+    public IActionResult Jugar()
+    {
         ViewBag.Puntaje = Juego.PuntajeActual;
 
-        if(Juego.Preg.Count > 0){
+        if (Juego.Preg.Count > 0)
+        {
             ViewBag.PreguntaActual = Juego.ObtenerProximaPregunta();
             ViewBag.RespuestaPregunta = Juego.ObtenerProximasRespuestas(ViewBag.PreguntaActual.IdPregunta);
-            ViewBag.nombreUsuario = Juego.username;
-
-            for(int i = 0; i < ViewBag.RespuestaPregunta.Count; i++){
-                GuardarDatos.PregunasOrden[i] = ViewBag.RespuestaPregunta[i];
-            }
-            
-            return View("Juego");
+            ViewBag.NombreUsuario = Juego.username;
+            return View();
         }
-        else{
-            return View("Fin");
+        else
+        {
+            return RedirectToAction("Fin");
         }
     }
 
-    public IActionResult Comenzar(string Username, int Dificultad, int Categoria, string Categorias)
+    public IActionResult VerificarRespuesta(int idPregunta, int idRespuesta)
+    {
+        ViewBag.Correcto = Juego.VerificarRespuestas(idPregunta, idRespuesta);
+        ViewBag.PreguntaActual = Juego.EncontrarPregunta(idPregunta);
+        ViewBag.Puntaje = Juego.PuntajeActual;
+        ViewBag.RespuestaCorrecta = GuardarDatos.PregunasOrden;
+        return View("Respuesta");
+    }
+
+    public IActionResult CrearPregunta()
+    {
+        ViewBag.Dificultades = Juego.ObtenerDificultades();
+        ViewBag.Categorias = Juego.ObtenerCategorias();
+        return View();
+    }
+
+    public IActionResult Comenzar(string Username, int Dificultad, int Categoria)
     {
         Juego.CargarPartidas(Username, Dificultad, Categoria);
 
-        Juego.NombreCategoria = Categorias;
-
-        if(Categorias == "Futbol Europeo"){
-            Juego.categoriaElegida = "#6B5B95";
-        }
-        else if(Categorias == "Futbol Sudamericano")
+        if (Juego.Preg.Count == 0)
         {
-            Juego.categoriaElegida = "#FF6F61";
-        }else if(Categorias == "Decada 2000")
-        {
-            Juego.categoriaElegida = "#88B04B";
-        }else
-        {
-            Juego.categoriaElegida = "#F7CAC9";
-        }
-
-        if(Juego.Preg.Count() == 0){
             return RedirectToAction("ConfigurarJuego");
         }
-        else{
+        else
+        {
             return RedirectToAction("Jugar");
         }
-    }
-
-    public IActionResult VerificarRespuesta(int idPregunta, int idRespuesta){
-        ViewBag.IdRespuesta = idRespuesta;
-        ViewBag.PreguntaActual = Juego.EncontrarPregunta(idPregunta);
-        ViewBag.RespuestaPregunta = GuardarDatos.PregunasOrden;
-        ViewBag.nombreUsuario = Juego.username;
-        ViewBag.Puntaje = Juego.PuntajeActual;
-        ViewBag.Correcto = Juego.VerificarRespuestas(idPregunta, idRespuesta);
-        
-        return View("Respuesta");
     }
 }

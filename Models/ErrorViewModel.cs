@@ -1,4 +1,4 @@
-namespace TP_PREGUNTADOS_1.Models;
+namespace TP_PREGUNTADORT_REENTREGA_WICNUDEL_TAGLIORETTI_MARASCH.Models;
 
 public class ErrorViewModel
 {

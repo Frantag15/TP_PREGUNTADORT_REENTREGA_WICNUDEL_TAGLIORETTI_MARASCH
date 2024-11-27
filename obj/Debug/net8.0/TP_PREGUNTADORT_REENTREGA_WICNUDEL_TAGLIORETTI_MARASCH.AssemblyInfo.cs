@@ -10,12 +10,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("TP_PREGUNTADOS_1")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("TP_PREGUNTADORT_REENTREGA_WICNUDEL_TAGLIORETTI_MARASCH")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2762bc36e1a190fdb414115fb04debc05744d290")]
-[assembly: System.Reflection.AssemblyProductAttribute("TP_PREGUNTADOS_1")]
-[assembly: System.Reflection.AssemblyTitleAttribute("TP_PREGUNTADOS_1")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3190617a9cbc39bd68a97963834b9c727fdad6c2")]
+[assembly: System.Reflection.AssemblyProductAttribute("TP_PREGUNTADORT_REENTREGA_WICNUDEL_TAGLIORETTI_MARASCH")]
+[assembly: System.Reflection.AssemblyTitleAttribute("TP_PREGUNTADORT_REENTREGA_WICNUDEL_TAGLIORETTI_MARASCH")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // Generado por la clase WriteCodeFragment de MSBuild.
